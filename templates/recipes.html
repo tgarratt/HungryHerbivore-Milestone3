@@ -1,24 +1,16 @@
-{% extends 'parent.html' %}
-{% block content %}
-        {% for recipe in recipes %}
-        {{recipe.difficulty}}
-        {{recipe.meal_name}}
-        {{recipe.meal_ingredients}}
-        {{recipe.meal_time}}
-        {{recipe.meal_requirements}}
-        {{recipe.meal_method}}
-        {{recipe.meal_comment}}
-        {% endfor %}
-        
+{% extends 'parent.html'%} {% block content %} {% for recipe in recipes%} {{recipe.difficulty}} {{recipe.meal_name}} {{recipe.meal_ingredients}} {{recipe.meal_time}} {{recipe.meal_requirements}} {{recipe.meal_method}} {{recipe.meal_comment}} {% endfor
+%}
+
 <ul class="collapsible" data-collapsible="accordion">
     {% for recipe in recipes %}
     <li>
-        <div class="collapsible-header"><i class="material-icons">filter_drama</i>
-        {{recipe.meal_name}} - {{recipe.difficulty}}
+        <div class="collapsible-header"><i class="material-icons">filter_drama</i> {{recipe.meal_name}} - {{recipe.difficulty}}
         </div>
-        <div class="collapsible-body"><span>
+        <div class="collapsible-body">
+            <span>
             {{recipe.meal_method}}
-            </span></div>
+            </span>
+        </div>
     </li>
     {% endfor %}
 </ul>
