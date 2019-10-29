@@ -1,5 +1,4 @@
-{% extends 'parent.html'%} {% block content %} {% for recipe in recipes%} {{recipe.difficulty}} {{recipe.meal_name}} {{recipe.meal_ingredients}} {{recipe.meal_time}} {{recipe.meal_requirements}} {{recipe.meal_method}} {{recipe.meal_comment}} {% endfor
-%}
+{% extends 'parent.html'%} {% block content %}
 
 <ul class="collapsible" data-collapsible="accordion">
     {% for recipe in recipes %}
