@@ -19,6 +19,13 @@ def get_recipes():
 def add_recipe():
     return render_template('addrecipe.html')
     
+@app.route('/submit_recipe', methods=['POST'])
+def submit_recipe():
+    recipes=mongo.db.recipes
+    recipes.insert_one(request.form.to.dict())
+    return redirect(url_for('get_recipes'))
+    
+    
 if __name__ ==  '__main__':
     app.run(host=os.environ.get('IP'),
         port=int(os.environ.get('PORT')),

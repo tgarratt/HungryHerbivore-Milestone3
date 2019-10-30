@@ -2,7 +2,7 @@
 
 <h3>ADD</h3>
 <div class="row">
-    <form action="" method="POST" class="col s12">
+    <form action="{{url_for('submit_recipe')}}" method="POST" class="col s12">
         <div class="row">
             <div class="input-field col s6">
                 <i class="material-icons prefix">title</i>
@@ -47,8 +47,13 @@
             </div>
 
         </div>
-</div>
-</form>
+
+        <div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Add recipe
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+    </form>
 </div>
 
 {% endblock %}
