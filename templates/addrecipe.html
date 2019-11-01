@@ -13,7 +13,7 @@
                 <select id= "difficulty" name= "difficulty_level">
                     <option value="" disabled selected> Choose your difficulty (1= easy, 5= expert)</option>
                     {% for diff in categories %}
-                    <option value="{{diff.category_name}}">{{diff.category_name}}</option>
+                    <option value="{{diff.difficulty_level}}">{{diff.difficulty_level}}</option>
                     {% endfor %}
                 </select>
             </div>
