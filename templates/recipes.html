@@ -9,7 +9,7 @@
             </div>
             <div class="col s2">
                 <a class="waves-effect waves-light btn">Finished</a>
-                <a href="{{url_for('modify_recipe', recipe_id=task._id)}}" class="waves-effect waves-light btn">Modify</a>
+                <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
             </div>
             <div class="col s9">
                 <strong>{{recipe.meal_name}}</strong> - {{recipe.difficulty}}
