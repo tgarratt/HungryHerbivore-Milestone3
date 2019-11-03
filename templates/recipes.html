@@ -3,7 +3,17 @@
 <ul class="collapsible" data-collapsible="accordion">
     {% for recipe in recipes %}
     <li>
-        <div class="collapsible-header"><i class="material-icons"> restaurant </i> <strong>{{recipe.meal_name}}</strong> - {{recipe.difficulty}}
+        <div class="collapsible-header">
+            <div class="col s1">
+                <i class="material-icons"> restaurant </i>
+            </div>
+            <div class="col s2">
+                <a class="waves-effect waves-light btn">Finished</a>
+                <a href="{{url_for('modify_recipe', recipe_id=task._id)}}" class="waves-effect waves-light btn">Modify</a>
+            </div>
+            <div class="col s9">
+                <strong>{{recipe.meal_name}}</strong> - {{recipe.difficulty}}
+            </div>
         </div>
         <div class="collapsible-body">
             <span>
