@@ -32,6 +32,11 @@ def modify_recipe(recipe_id):
     all_categories = mongo.db.categories.find()
     return render_template('modifyrecipe.html', recipe=the_recipe)
     
+@app.route('/delete_recipe/<recipe_id>')
+def delete_recipe(recipe_id):
+    mongo.db.recipes.remove({'_id': ObjectId(recipe_id)})
+    return redirect(url_for('get_recipes'))
+
     
 if __name__ ==  '__main__':
     app.run(host=os.environ.get('IP'),

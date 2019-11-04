@@ -10,7 +10,7 @@
             </div>
 
             <div class="input-field col s6">
-                <select id="difficulty" name="difficulty">
+                <select id="difficulty" name="difficulty" value="recipe.difficulty">
                     <option value="" disabled selected> Choose your difficulty (1= easy, 5= expert)</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -56,6 +56,7 @@
             <button class="btn waves-effect waves-light" type="submit" name="action">Add recipe
                 <i class="material-icons right">send</i>
             </button>
+            <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Delete recipe</a>
         </div>
     </form>
 </div>
