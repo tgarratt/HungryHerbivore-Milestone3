@@ -28,7 +28,7 @@ def submit_recipe():
     
 @app.route('/modify_recipe/<recipe_id>')
 def modify_recipe(recipe_id):
-    the_recipe = mongo.db.tasks.find_one({"_id": ObjectId(recipe_id)})
+    the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     all_categories = mongo.db.categories.find()
     return render_template('modifyrecipe.html', recipe=the_recipe)
     
