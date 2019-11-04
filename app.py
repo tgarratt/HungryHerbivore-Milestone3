@@ -36,6 +36,21 @@ def modify_recipe(recipe_id):
 def delete_recipe(recipe_id):
     mongo.db.recipes.remove({'_id': ObjectId(recipe_id)})
     return redirect(url_for('get_recipes'))
+    
+@app.route('/update_recipe/<recipe_id>', methods=["POST"])
+def update_recipe(recipe_id):
+    recipes = mongo.db.recipes
+    recipes.update( {'_id': ObjectId(recipe_id)},
+    {
+     'meal_name':request.form.get('meal_name'),
+     'difficulty':request.form.get('difficulty'),
+     'meal_time':request.form.get('meal_time'),
+     'meal_ingredients':request.form.get('meal_ingredients'),
+     'meal_requirements':request.form.get('meal_requirements'),
+     'meal_method':request.form.get('meal_method'),
+     'meal_comment':request.form.get('meal_comment'),
+    })
+    return redirect(url_for('get_recipes'))
 
     
 if __name__ ==  '__main__':
