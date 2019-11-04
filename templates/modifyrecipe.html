@@ -10,11 +10,13 @@
             </div>
 
             <div class="input-field col s6">
-                <select id= "difficulty" name= "difficulty">
+                <select>
                     <option value="" disabled selected> Choose your difficulty (1= easy, 5= expert)</option>
-                    {% for diff in categories %}
-                    <option value="{{diff.difficulty}}">{{diff.difficulty}}</option>
-                    {% endfor %}
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
