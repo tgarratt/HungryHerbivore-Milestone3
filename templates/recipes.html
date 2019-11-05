@@ -1,21 +1,20 @@
 {% extends 'parent.html'%} {% block content %}
-<div class="recipe_header">
-    <ul class="collapsible" data-collapsible="accordion">
-        {% for recipe in recipes %}
-        <li>
-            <div class="collapsible-header">
-                <div class="col s1">
-                    <i class="material-icons"> restaurant </i>
-                </div>
-                <div class="col s2">
-                    <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
-                </div>
-                <div class="col s9">
-                    <strong>{{recipe.meal_name}}</strong> - {{recipe.difficulty}}
-                </div>
+<ul class="collapsible" data-collapsible="accordion">
+    {% for recipe in recipes %}
+    <li>
+        <div class="collapsible-header">
+            <div class="col s1">
+                <i class="material-icons"> restaurant </i>
             </div>
-            <div class="collapsible-body">
-                <span>
+            <div class="col s2">
+                <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
+            </div>
+            <div class="col s9">
+                <strong>{{recipe.meal_name}}</strong> - {{recipe.difficulty}}
+            </div>
+        </div>
+        <div class="collapsible-body">
+            <span>
                 <div>
                     <div><strong>Method:</strong></div>
                     <div>{{recipe.meal_method}}</div>
@@ -37,11 +36,10 @@
                     <div>{{recipe.meal_comment}}</div>
                 </div>
             </span>
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
 
 
 {% endblock %}
