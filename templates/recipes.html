@@ -4,15 +4,15 @@
     <li>
         <div class="collapsible-header">
             <div class="col s1">
-                {% if difficulty == 1 %}
+                {% if {{recipe.difficulty}} == 1 %}
                 <i class="green-text text-accent-3 material-icons"> restaurant </i>
-                {% elif difficulty == 2 %}
+                {% elif {{recipe.difficulty}} == 2 %}
                 <i class="light-blue-text text-lighten-2 material-icons"> restaurant </i>
-                {% elif difficulty == 3 %}
+                {% elif {{recipe.difficulty}} == 3 %}
                 <i class="amber-text text-darken-2 material-icons"> restaurant </i>
-                {% elif difficulty == 4 %}
+                {% elif {{recipe.difficulty}} == 4 %}
                 <i class="red-text text-darken-2 material-icons"> restaurant </i>
-                {% elif difficulty == 5 %}
+                {% elif {{recipe.difficulty}} == 5 %}
                 <i class="black-text material-icons"> restaurant </i>
                 {%  endif %}
             </div>
