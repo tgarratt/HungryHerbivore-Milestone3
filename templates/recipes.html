@@ -3,7 +3,7 @@
     {% for recipe in recipes %}
     <li>
         <div class="collapsible-header row">
-            <div class="col l2">
+            <div class="col l1">
             <i class="col s1 material-icons {% if recipe.difficulty == "1" %}
                 green-text text-accent-3
                 {% elif recipe.difficulty == "2" %}
@@ -16,7 +16,7 @@
                 black-text
                 {% endif %}">restaurant </i>
             </div>
-            <div class="col l8">
+            <div class="col l9">
                 <strong>{{recipe.meal_name}}</strong> - {{recipe.meal_time}}
             </div>
 
