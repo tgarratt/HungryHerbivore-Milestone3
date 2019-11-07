@@ -18,14 +18,13 @@
 
             </div>
 
-            <div class="col l11">
+            <div class="col l8">
                 <strong>{{recipe.meal_name}}</strong> - {{recipe.meal_time}}
             </div>
 
-            <div class="row">
-                <div class="col l12">
-                    <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
-                </div>
+
+            <div class="col l3">
+                <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
             </div>
         </div>
         <div class="collapsible-body">
