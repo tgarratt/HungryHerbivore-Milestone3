@@ -17,12 +17,11 @@
                 {% endif %}">restaurant </i>
             </div>
             <div>
-            <strong>{{recipe.meal_name}}</strong> - {{recipe.difficulty}}
+                <strong>{{recipe.meal_name}}</strong> - {{recipe.difficulty}}
             </div>
-
-            <div>
-                <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
-            </div>
+        </div>
+        <div>
+            <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
         </div>
         <div class="collapsible-body">
             <span>
