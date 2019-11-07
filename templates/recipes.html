@@ -3,7 +3,7 @@
     {% for recipe in recipes %}
     <li>
         <div class="collapsible-header row">
-            <div class="col l1">
+            <div class="col l8">
                 <i class="col s1 material-icons {% if recipe.difficulty == " 1 " %}
                 green-text text-accent-3
                 {% elif recipe.difficulty == "2 " %}
@@ -15,16 +15,12 @@
                 {% elif recipe.difficulty == "5 " %}
                 black-text
                 {% endif %}">restaurant </i>
-
-            </div>
-
-            <div class="col l8">
                 <strong>{{recipe.meal_name}}</strong> - {{recipe.meal_time}} - {{recipe.difficulty}}
             </div>
 
 
             <div class="col l3">
-                <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
+                <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn modify-button">Modify</a>
             </div>
         </div>
         <div class="collapsible-body">
