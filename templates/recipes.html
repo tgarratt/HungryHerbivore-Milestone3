@@ -1,5 +1,4 @@
 {% extends 'parent.html'%} {% block content %}
-<div>
     <ul class="collapsible" data-collapsible="accordion">
         {% for recipe in recipes %}
         <li>
@@ -21,7 +20,7 @@
                 <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
             </div>
             <div class="col s9">
-                <strong>{{recipe.meal_name}}</strong>
+                <strong>{{recipe.meal_name}}</strong> - {{recipe.meal_time}}
             </div>
 </div>
 <div class="collapsible-body">
@@ -29,10 +28,6 @@
                 <div>
                     <div><strong>Method:</strong></div>
                     <div>{{recipe.meal_method}}</div>
-                </div>
-                <div>
-                    <div><strong>Time:</strong></div>
-                    <div>{{recipe.meal_time}}</div>
                 </div>
                 <div>
                     <div><strong>Ingredients:</strong></div>
@@ -51,7 +46,6 @@
 </li>
 {% endfor %}
 </ul>
-</div>
 
 
 {% endblock %}
