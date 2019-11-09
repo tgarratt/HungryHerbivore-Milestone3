@@ -4,7 +4,7 @@ body {
 
 .page-content {
     background-color: #ECE9E9;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 .icon-size {
