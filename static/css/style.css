@@ -1,5 +1,5 @@
 body {
-    background-image: url("/../../../images/falling-triangles.zip");
+    background-color: purple;
 }
 
 .page-content {
@@ -13,3 +13,6 @@ body {
     margin-left: -100px;
 }
 
+.icon-size {
+    font-size: 25px;
+}
