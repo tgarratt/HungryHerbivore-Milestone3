@@ -1,5 +1,5 @@
 body {
-    background-color: purple;
+    background-color: #8b00d1;
 }
 
 .page-content {
@@ -11,4 +11,9 @@ body {
 
 .icon-size {
     font-size: 25px;
+}
+
+.header-color {
+    background-color: #ECE9E9;
+    color: #8b00d1
 }
