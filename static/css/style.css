@@ -1,7 +1,8 @@
 /*--------------------------------------------- MAIN TAG CLASSES */
 
 body {
-    background-color: #A20ED9;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAK0lEQVQoU2NkIBIwEqmOgTyFi/hu/ke2Ie6TOtwgFBMHUCG+ECDP1/hMBADdHRALGYZ/hgAAAABJRU5ErkJggg==
+) repeat;
 }
 
 /*--------------------------------------------- REPEATED CLASSES */
@@ -18,7 +19,7 @@ body {
 /*--------------------------------------------- NAV BAR */
 
 .nav-text {
-    color: #A20ED9;
+    color: #A20ED9 !important;
 }
 
 /*--------------------------------------------- RECIPES */
