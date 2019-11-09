@@ -1,6 +1,10 @@
+/*--------------------------------------------- MAIN TAG CLASSES */
+
 body {
-    background-color: #8b00d1;
+    background-color: #A20ED9;
 }
+
+/*--------------------------------------------- REPEATED CLASSES */
 
 .page-content {
     background-color: #ECE9E9;
@@ -9,11 +13,16 @@ body {
     width: 65em
 }
 
-.icon-size {
-    font-size: 25px;
+
+
+/*--------------------------------------------- NAV BAR */
+
+.nav-text {
+    color: #A20ED9;
 }
 
-.header-color {
-    background-color: #ECE9E9;
-    color: #8b00d1
+/*--------------------------------------------- RECIPES */
+
+.icon-size {
+    font-size: 35px;
 }

@@ -1,11 +1,11 @@
 {% extends 'parent.html'%} {% block content %}
 <div class="page-content">
-<ul class="collapsible" data-collapsible="accordion">
-    {% for recipe in recipes %}
-    <li>
-        <div class="collapsible-header row">
-            <div class="col l1">
-            <i class="col s1 material-icons icon-size {% if recipe.difficulty == "1" %}
+    <ul class="collapsible" data-collapsible="accordion">
+        {% for recipe in recipes %}
+        <li>
+            <div class="collapsible-header row">
+                <div class="col l1">
+                    <i class="col s1 material-icons icon-size {% if recipe.difficulty == "1" %}
                 green-text text-accent-3
                 {% elif recipe.difficulty == "2" %}
                 light-blue-text text-lighten-2 
@@ -16,17 +16,16 @@
                 {% elif recipe.difficulty == "5" %}
                 black-text
                 {% endif %}">restaurant </i>
+                </div>
+                <div class="col l9">
+                    <strong>{{recipe.meal_name}}</strong> - {{recipe.meal_time}}
+                </div>
+                <div class="col l2">
+                    <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
+                </div>
             </div>
-            <div class="col l9">
-                <strong>{{recipe.meal_name}}</strong> - {{recipe.meal_time}}
-            </div>
-
-            <div class="col l2">
-                <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Modify</a>
-            </div>
-        </div>
-        <div class="collapsible-body">
-            <span>
+            <div class="collapsible-body">
+                <span>
                 <div>
                     <div class><strong>Method: </strong></div>
                     <div>{{recipe.meal_method}}</div>
@@ -44,10 +43,10 @@
                     <div>{{recipe.meal_comment}}</div>
                 </div>
             </span>
-        </div>
-    </li>
-    {% endfor %}
-</ul>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
 
 {% endblock %}
