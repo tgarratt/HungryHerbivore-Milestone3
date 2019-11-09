@@ -1,3 +1,9 @@
 body {
-    background-color: red;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAK0lEQVQoU2NkIBIwEqmOgcYKuxku/gc5pZRBH8MmrFZj00BjN+ILKqKtBgDZVQYL2HGBHwAAAABJRU5ErkJggg==
+) repeat;
+}
+
+.page-content {
+    background-color: #ECE9E9 !important;
+    margin: 0 auto;
 }
