@@ -28,6 +28,9 @@ body {
     transition: 0.5s;
 }
 
+.center {
+  text-align: center;
+}
 
 
 /*--------------------------------------------- NAV BAR */
