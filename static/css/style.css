@@ -28,6 +28,10 @@ body {
     transition: 0.5s;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /*--------------------------------------------- NAV BAR */
 
 .nav-logo {
