@@ -23,7 +23,7 @@ body {
 }
 
 .buttons-hover:hover {
-    background-color: #ECE9E9;
+    background-color: #ECE9E9 !important;
     color: #8E00C3;
     transition: 0.5s;
 }
@@ -34,6 +34,7 @@ body {
 
 .nav-logo {
     font-family: 'Aleo';
+    margin-left: 20px;
 }
 
 .nav-text {
