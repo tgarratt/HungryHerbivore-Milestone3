@@ -81,10 +81,19 @@ body {
     margin-right: auto;
     width: 80em;
     border-radius: 10px;
-    text-align: center;
+
 }
 
 .key-icon {
     font-size: 20px;
-    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 3px;
+}
+
+.key-text {
+    margin-left: 0px;
+    margin-right: 10px;
+    color: #8E00C3;
 }
