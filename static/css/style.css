@@ -79,9 +79,8 @@ body {
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 70%;
     border-radius: 10px;
-    text-align: center;
 
 }
 
@@ -91,10 +90,12 @@ body {
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 3px;
+    text-align: center !important;
 }
 
 .key-text {
     margin-left: 0px;
     margin-right: 10px;
     color: #000000;
+    text-align: center !important;
 }
