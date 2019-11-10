@@ -3,8 +3,10 @@
 
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css" />
+
 
 </head>
 
@@ -12,7 +14,7 @@
     <header>
         <nav class="nav-color">
             <div class="nav-wrapper">
-                <a href="{{url_for('get_recipes')}}" class="brand-logo nav-text">Hungry Herbivore</a>
+                <a href="{{url_for('get_recipes')}}" class="brand-logo nav-text nav-logo">Hungry Herbivore</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{url_for('get_recipes')}}"><i class="material-icons nav-text">apps</i></a></li>
                     <li><a href="{{url_for('add_recipe')}}"><i class="material-icons nav-text">add</i></a></li>

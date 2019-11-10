@@ -32,6 +32,10 @@ body {
 
 /*--------------------------------------------- NAV BAR */
 
+.nav-logo {
+    font-family: 'Aleo';
+}
+
 .nav-text {
     color: #8E00C3 !important;
 }
