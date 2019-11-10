@@ -1,16 +1,26 @@
 {% extends 'parent.html'%} {% block content %}
 
-<div class="page-content">
-    <i class="material-icons novice">restaurant</i>
-    <p> - Novice</p>
-    <i class="material-icons competent">restaurant</i>
-    <p> - Competent</p>
-    <i class="material-icons intermediate">restaurant</i>
-    <p> - Intermediate</p>
-    <i class="material-icons advanced">restaurant</i>
-    <p> - Advanced</p>
-    <i class="material-icons professional">restaurant</i>
-    <p> - Professional</p>
+<div class="page-content row">
+    <div class="col l2">
+        <i class="material-icons novice">restaurant</i>
+        <p> - Novice</p>
+    </div>
+    <div class="col l2">
+        <i class="material-icons competent">restaurant</i>
+        <p> - Competent</p>
+    </div>
+    <div class="col l2">
+        <i class="material-icons intermediate">restaurant</i>
+        <p> - Intermediate</p>
+    </div>
+    <div class="col l2">
+        <i class="material-icons advanced">restaurant</i>
+        <p> - Advanced</p>
+    </div>
+    <div class="col l2">
+        <i class="material-icons professional">restaurant</i>
+        <p> - Professional</p>
+    </div>
 </div>
 
 <div class="page-content">
@@ -19,7 +29,8 @@
         <li>
             <div class="collapsible-header row">
                 <div class="col l1">
-                    <i class="col s1 material-icons icon-size {% if recipe.difficulty == "1" %}
+                    <i class="col s1 material-icons icon-size 
+                {% if recipe.difficulty == "1" %}
                 green-text text-accent-3
                 {% elif recipe.difficulty == "2" %}
                 light-blue-text text-lighten-2 
