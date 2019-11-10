@@ -14,12 +14,21 @@ body {
     width: 65em
 }
 
+.buttons {
+    margin: 5px;
+    background-color: #ECE9E9 !important;
+}
+
 
 
 /*--------------------------------------------- NAV BAR */
 
 .nav-text {
-    color: #A20ED9 !important;
+    color: #8E00C3 !important;
+}
+
+.nav-color {
+    background-color: #ECE9E9 !important;
 }
 
 /*--------------------------------------------- RECIPES */

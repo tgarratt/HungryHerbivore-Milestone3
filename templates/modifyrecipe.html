@@ -35,7 +35,7 @@
                 <div class="input-field col s12">
                     <i class="material-icons prefix">outdoor_grill</i>
                     <textarea id="meal_requirements" name="meal_requirements" class="validate">{{recipe.meal_requirements}}</textarea>
-                    <label for="icon_prefix"> Equiptment needed!</label>
+                    <label for="icon_prefix"> Equipment needed!</label>
                 </div>
 
                 <div class="input-field col s12">
@@ -53,10 +53,10 @@
             </div>
 
             <div>
-                <button class="btn waves-effect waves-light" type="submit" name="action">Update recipe
+                <button class="btn waves-effect waves-light buttons" type="submit" name="action">Update recipe
                 <i class="material-icons right">send</i>
             </button>
-                <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn">Delete recipe</a>
+                <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons">Delete recipe</a>
             </div>
         </form>
     </div>
