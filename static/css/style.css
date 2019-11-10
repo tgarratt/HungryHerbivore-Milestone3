@@ -51,6 +51,8 @@ body {
     font-size: 35px;
 }
 
+/*--------------------------------------------- KEY */
+
 .novice {
     color: #00e676;
 }
@@ -79,4 +81,10 @@ body {
     margin-right: auto;
     width: 80em;
     border-radius: 10px;
+    text-align: center;
+}
+
+.key-icon {
+    font-size: 20px;
+    margin: 5px;
 }
