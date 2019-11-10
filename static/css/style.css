@@ -50,3 +50,23 @@ body {
 .icon-size {
     font-size: 35px;
 }
+
+.novice {
+    color: #00e676;
+}
+
+.competent {
+    color: #4fc3f7;
+}
+
+.intermediate {
+    color: #ffa000;
+}
+
+.advanced {
+    color: #d32f2f;
+}
+
+.professional {
+    color: #000000;
+}
