@@ -89,10 +89,10 @@ body {
     margin-top: 10px;
     margin-bottom: 5px;
     margin-left: 5px;
-    margin-right: 3px;
 }
 
 .key-text {
-    margin-right: 20px;
+    margin-right: 15px;
+    font-size: 75%;
     color: #000000;
 }
