@@ -28,11 +28,6 @@ body {
     transition: 0.5s;
 }
 
-.center {
-  text-align: center;
-}
-
-
 /*--------------------------------------------- NAV BAR */
 
 .nav-logo {
@@ -78,10 +73,10 @@ body {
 
 .key-content {
     background-color: #ECE9E9;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 60%;
     border-radius: 10px;
 
@@ -95,7 +90,7 @@ body {
 }
 
 .key-text {
-    margin-right: 15px;
+    margin-right: 25px;
     font-size: 75%;
     color: #000000;
 }
