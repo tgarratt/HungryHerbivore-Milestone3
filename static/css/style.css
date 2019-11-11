@@ -122,3 +122,10 @@ footer {
     margin: 5px;
     background-color: #8E00C3;
 }
+
+.footer-text {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
