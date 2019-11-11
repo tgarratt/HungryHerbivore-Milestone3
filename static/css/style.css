@@ -29,8 +29,8 @@ body {
     transition: 0.5s;
 }
 
-.text-center {
-    text-align: center !important;
+.fill {
+    width: 100%
 }
 
 .margin-auto {

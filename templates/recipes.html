@@ -1,7 +1,7 @@
 {% extends 'parent.html'%} {% block content %}
 
 <div class="key-content row">
-    <div class="margin-auto">
+    <div class="fill">
         <div class="col m2.4 key-info">
             <p>Novice</p>
             <i class="material-icons novice">restaurant</i>
@@ -32,15 +32,15 @@
             <div class="collapsible-header row">
                 <div class="col l1">
                     <i class="col s1 material-icons icon-size 
-                {% if recipe.difficulty == " 1 " %}
+                {% if recipe.difficulty == "1" %}
                 green-text text-accent-3
-                {% elif recipe.difficulty == "2 " %}
+                {% elif recipe.difficulty == "2" %}
                 light-blue-text text-lighten-2 
-                {% elif recipe.difficulty == "3 " %}
+                {% elif recipe.difficulty == "3" %}
                 amber-text text-darken-2
-                {% elif recipe.difficulty == "4 " %}
+                {% elif recipe.difficulty == "4" %}
                 red-text text-darken-2
-                {% elif recipe.difficulty == "5 " %}
+                {% elif recipe.difficulty == "5" %}
                 black-text
                 {% endif %}">restaurant </i>
                 </div>
