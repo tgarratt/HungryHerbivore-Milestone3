@@ -97,5 +97,9 @@ body {
     display: inline-block;
 }
 
+.key-text {
+    width: 100%;
+}
+
 
 /*--------------------------------------------- FOOTER */
