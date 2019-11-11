@@ -105,7 +105,7 @@ body {
 footer {
     background-color: #ECE9E9;
     color: #8E00C3;
-    height: 30px;
+    height: 40px;
     width: 100%;
     clear: both;
     position: absolute;
@@ -113,4 +113,9 @@ footer {
     bottom: 0;
     left: 0;
     padding: 1rem;
+}
+
+.footer-button {
+    height: 30px !important;
+    width: 30px !important;
 }
