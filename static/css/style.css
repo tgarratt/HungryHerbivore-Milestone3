@@ -29,8 +29,8 @@ body {
     transition: 0.5s;
 }
 
-.fill {
-    width: 100%
+.key-width {
+    width: 20%
 }
 
 .margin-auto {
@@ -88,8 +88,6 @@ body {
     margin-right: auto;
     width: 50%;
     border-radius: 10px;
-    white-space: nowrap;
-    overflow-x: auto;
 
 }
 
