@@ -84,14 +84,16 @@ body {
     margin-right: auto;
     width: 50%;
     border-radius: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
 
 }
 
 .key-info {
-    font-size: 75%;
+    font-size: 60%;
     margin: 10px;
+    display: inline-block;
 }
 
 
 /*--------------------------------------------- FOOTER */
-
