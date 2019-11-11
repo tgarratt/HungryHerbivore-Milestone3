@@ -114,3 +114,8 @@ footer {
     bottom: 0px;
     height: 30px;
 }
+
+.footer-text {
+    text-align: center;
+    font-weight: 400;
+}
