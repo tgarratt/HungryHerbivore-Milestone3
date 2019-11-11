@@ -107,6 +107,5 @@ footer {
     width: 100%;
     height: 30px;
     clear: both;
-    position: relative;
-    margin-top: -200px;
+    position: fixed;
 }
