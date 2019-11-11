@@ -92,7 +92,7 @@ body {
 }
 
 .key-info {
-    font-size: 60%;
+    font-size: 75%;
     margin: 0 auto;
     display: inline-block;
 }
@@ -101,5 +101,8 @@ body {
     width: 100%;
 }
 
+.key-texts {
+    width: 20%;
+}
 
 /*--------------------------------------------- FOOTER */
