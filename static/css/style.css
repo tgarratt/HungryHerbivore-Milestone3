@@ -32,14 +32,6 @@ body {
     text-align: center;
 }
 
-.smaller {
-    font-size: smaller;
-}
-
-.larger {
-    font-size: larger;
-}
-
 /*--------------------------------------------- NAV BAR */
 
 .nav-logo {
@@ -114,31 +106,3 @@ footer {
     color: #ECE9E9;
 }
 
-.footer-text {
-    padding-left: 50px;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #8E00C3;
-    background: #ECE9E9;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #8E00C3;
-    color: #ECE9E9;
-}
