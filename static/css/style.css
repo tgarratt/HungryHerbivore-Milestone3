@@ -108,7 +108,7 @@ body {
 footer {
     width: 100%;
     background-color: #ECE9E9;
-    color: #8E00C3;
+    color: #8E00C3 !important;
     position: fixed;
     left: 0px;
     bottom: 0px;
