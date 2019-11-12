@@ -120,3 +120,7 @@ footer {
     font-weight: 500;
     margin: 5px;
 }
+
+.footer-hover:hover {
+    color: #BB2FF1
+}
