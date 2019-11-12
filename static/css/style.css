@@ -108,7 +108,7 @@ body {
 footer {
     width: 100%;
     background-color: #ECE9E9;
-    color: #8E00C3 !important;
+    color: #8E00C3;
     position: fixed;
     left: 0px;
     bottom: 0px;
@@ -123,4 +123,8 @@ footer {
 
 .footer-hover:hover {
     color: #BB2FF1
+}
+
+.footer-link {
+    text-decoration: none;
 }
