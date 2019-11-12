@@ -122,7 +122,7 @@ footer {
 }
 
 .footer-hover:hover {
-    color: #BB2FF1
+    color: #BB2FF1 !important;
 }
 
 .footer-link {
