@@ -117,5 +117,6 @@ footer {
 
 .footer-text {
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
+    margin: 5px;
 }
