@@ -103,6 +103,17 @@ body {
     text-align: center;
 }
 
+/*--------------------------------------------- MODIFY */
+
+.button-delete {
+    margin: 8px;
+    background-color: #bb2124!important;
+}
+
+.delete-interact:hover {
+    background-color: #E7272B !important;
+}
+
 /*--------------------------------------------- FOOTER */
 
 footer {
