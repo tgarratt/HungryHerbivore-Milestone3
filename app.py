@@ -1,6 +1,8 @@
 import os
 from flask import Flask, render_template, redirect, request, url_for
 from flask_pymongo import PyMongo
+from flask_wtf import FlaskForm
+from wtforms.validators import DataRequired
 from bson.objectid import ObjectId
 
 app = Flask(__name__)
@@ -51,6 +53,7 @@ def update_recipe(recipe_id):
      'meal_comment':request.form.get('meal_comment'),
     })
     return redirect(url_for('get_recipes'))
+    
 
     
 if __name__ ==  '__main__':
