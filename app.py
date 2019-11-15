@@ -55,7 +55,7 @@ def update_recipe(recipe_id):
     return redirect(url_for('get_recipes'))
     
 @app.route('/view_recipe/<recipe_id>')
-def selected_recipe(recipe_id):
+def view_recipe(recipe_id):
   the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
   all_categories = mongo.db.categories.find()
   return render_template('viewrecipe.html', recipe=the_recipe)
