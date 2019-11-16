@@ -118,12 +118,16 @@ body {
 
 .recipe-header {
     text-align: center;
-    background-color: #D7D3D3
+    background-color: #D7D3D3;
+    margin: 15px;
+    border-radius: 25px;
 }
 
 .recipe-content {
     margin: 15px;
     background-color: #D7D3D3;
+    width: 85%;
+    border-radius: 25px;
 }
 
 /*--------------------------------------------- FOOTER */
