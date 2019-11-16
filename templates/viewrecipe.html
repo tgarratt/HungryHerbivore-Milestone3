@@ -1,27 +1,27 @@
 {% extends 'parent.html'%} {% block content %}
 
 <div class="page-content">
-    <div class="row">
+    <div class="recipe-header row">
         <h2 class="col l12">
             {{recipe.meal_name}}
         </h2>
     </div>
     <div class="row">
-        <div class="col l6">
+        <div class="recipe-content col l6">
             <div><strong>Duration</strong>- {{recipe.meal_time}}</div>
         </div>
-        <div class="col l6">
+        <div class="recipe-content col l6">
             <div><strong>Diffiulty</strong>- {{recipe.difficulty}}</div>
         </div>
-        <div class="col l12">
+        <div class="recipe-content col l12">
             <div><strong>Ingredients:</strong></div>
             <div>{{recipe.meal_ingredients}}</div>
         </div>
-        <div class="col l12">
+        <div class="recipe-content col l12">
             <div><strong>Method:</strong></div>
             <div>{{recipe.meal_method}}</div>
         </div>
-        <div class="col l12">
+        <div class="recipe-content col l12">
             <div><strong>Equiptment:</strong></div>
             <div>{{recipe.meal_requirements}}</div>
         </div>

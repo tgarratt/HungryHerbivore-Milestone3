@@ -103,7 +103,7 @@ body {
     text-align: center;
 }
 
-/*--------------------------------------------- MODIFY */
+/*--------------------------------------------- MODIFY RECIPE */
 
 .button-delete {
     margin: 8px;
@@ -112,6 +112,18 @@ body {
 
 .delete-interact:hover {
     background-color: #F92E32 !important;
+}
+
+/*--------------------------------------------- VIEW RECIPE */
+
+.recipe-header {
+    text-align: center;
+    background-color: #D7D3D3
+}
+
+.recipe-content {
+    margin: 15px;
+    background-color: #D7D3D3;
 }
 
 /*--------------------------------------------- FOOTER */
