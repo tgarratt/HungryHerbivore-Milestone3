@@ -131,7 +131,7 @@ body {
     margin: 15px;
     border-radius: 25px;
     border: 10px;
-    border-top: 5px !important;
+    padding-top: 5px;
 }
 
 .recipe-content {
