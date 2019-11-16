@@ -131,13 +131,19 @@ body {
     margin: 15px;
     border-radius: 25px;
     border: 10px;
+    border-top: 5px !important;
 }
 
 .recipe-content {
-    margin: 15px;
+    margin: 20px;
     background-color: #DADADA;
     border-radius: 25px;
     border: 10px;
+}
+
+.recipe-element {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /*--------------------------------------------- FOOTER */
