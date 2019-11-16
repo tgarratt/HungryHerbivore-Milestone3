@@ -5,12 +5,12 @@
             <div class="row">
                 <div class="input-field col s6">
                     <i class="material-icons prefix">title</i>
-                    <input id="meal_name" name="meal_name" type="text" class="validate" value="{{recipe.meal_name}}">
+                    <input id="meal_name" name="meal_name" type="text" class="validate" value="{{recipe.meal_name}}" required>
                     <label for="icon_prefix"> Recipe name!</label>
                 </div>
 
                 <div class="input-field col s6">
-                    <select id="difficulty" name="difficulty">
+                    <select id="difficulty" name="difficulty" required>
                     <option value="{{recipe.difficulty}}">{{recipe.difficulty}} -current</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -22,31 +22,31 @@
 
                 <div class="input-field col s12">
                     <i class="material-icons prefix">timer</i>
-                    <input id="meal_time" name="meal_time" type="text" class="validate" value="{{recipe.meal_time}}">
+                    <input id="meal_time" name="meal_time" type="text" class="validate" value="{{recipe.meal_time}}" required>
                     <label for="icon_prefix"> Total duration to complete!</label>
                 </div>
 
                 <div class="input-field col s12">
                     <i class="material-icons prefix">shopping_basket</i>
-                    <textarea id="meal_ingredients" name="meal_ingredients" class="validate">{{recipe.meal_ingredients}}</textarea>
+                    <textarea id="meal_ingredients" name="meal_ingredients" class="validate">{{recipe.meal_ingredients}} required</textarea>
                     <label for="icon_prefix"> List of ingredients!</label>
                 </div>
 
                 <div class="input-field col s12">
                     <i class="material-icons prefix">outdoor_grill</i>
-                    <textarea id="meal_requirements" name="meal_requirements" class="validate">{{recipe.meal_requirements}}</textarea>
+                    <textarea id="meal_requirements" name="meal_requirements" class="validate">{{recipe.meal_requirements}} required</textarea>
                     <label for="icon_prefix"> Equipment needed!</label>
                 </div>
 
                 <div class="input-field col s12">
                     <i class="material-icons prefix">list</i>
-                    <textarea id="meal_method" name="meal_method" class="validate">{{recipe.meal_method}}</textarea>
+                    <textarea id="meal_method" name="meal_method" class="validate">{{recipe.meal_method}} required</textarea>
                     <label for="icon_prefix"> Method!</label>
                 </div>
 
                 <div class="input-field col s12">
                     <i class="material-icons prefix">speaker_notes</i>
-                    <textarea id="meal_comment" name="meal_comment" class="validate">{{recipe.meal_comment}}</textarea>
+                    <textarea id="meal_comment" name="meal_comment" class="validate">{{recipe.meal_comment}} required</textarea>
                     <label for="icon_prefix"> Any notes!</label>
                 </div>
 
