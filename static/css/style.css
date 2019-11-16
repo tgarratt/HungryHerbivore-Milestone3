@@ -19,6 +19,15 @@ body {
     border-radius: 25px;
 }
 
+.page-content-recipes {
+    background-color: #ECE9E9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
+}
+
 .buttons {
     margin: 8px;
     background-color: #8E00C3 !important;
@@ -127,7 +136,6 @@ body {
 .recipe-content {
     margin: 15px;
     background-color: #DADADA;
-    width: 85%;
     border-radius: 25px;
     border: 10px;
 }
