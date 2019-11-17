@@ -4,9 +4,9 @@
         <form action="{{url_for('submit_recipe')}}" method="POST" class="col s12">
             <div class="row">
                 <div class="input-field col s6">
-                    <i class="material-icons">title</i>
+                    <i class="material-icons prefix">title</i>
                     <input id="meal_name" name="meal_name" type="text" required>
-                    <label> Recipe name!</label>
+                    <label for="icon_prefix"> Recipe name!</label>
                 </div>
 
                 <div class="input-field col s6">
@@ -21,31 +21,31 @@
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons">timer</i>
+                    <i class="material-icons prefix">timer</i>
                     <input id="meal_time" name="meal_time" type="text" required>
                     <label for="icon_prefix"> Total duration to complete!</label>
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons">shopping_basket</i>
+                    <i class="material-icons prefix">shopping_basket</i>
                     <textarea id="meal_ingredients" name="meal_ingredients" required></textarea>
                     <label for="icon_prefix"> List of ingredients!</label>
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons">outdoor_grill</i>
+                    <i class="material-icons prefix">outdoor_grill</i>
                     <textarea id="meal_requirements" name="meal_requirements" required></textarea>
                     <label for="icon_prefix"> Equipment needed!</label>
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons">list</i>
+                    <i class="material-icons prefix">list</i>
                     <textarea id="meal_method" name="meal_method" required></textarea>
                     <label for="icon_prefix"> Method!</label>
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons">speaker_notes</i>
+                    <i class="material-icons prefix">speaker_notes</i>
                     <textarea id="meal_comment" name="meal_comment" required></textarea>
                     <label for="icon_prefix"> Any notes!</label>
                 </div>
