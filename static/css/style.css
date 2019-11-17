@@ -47,10 +47,13 @@ body {
     margin: 0 auto;
 }
 
-.input-field input+textarea:focus+label {
-    color: #8E00C3 !important;
+.prefix {
+    color: #8E00C3 !important
 }
 
+.prefix {
+    color: #8E00C3 !important
+}
 /*--------------------------------------------- NAV BAR */
 
 .nav-logo {
