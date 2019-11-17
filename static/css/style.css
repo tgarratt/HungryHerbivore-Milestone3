@@ -51,7 +51,7 @@ body {
     color: #8E00C3 !important;
 }
 
-.input-field i:focus+label {
+.input-field i:focus {
     color: #8E00C3 !important;
 }
 
