@@ -47,7 +47,7 @@ body {
     margin: 0 auto;
 }
 
-.form-color:active {
+.form-color:focus {
     color: #8E00C3 !important;
 }
 
