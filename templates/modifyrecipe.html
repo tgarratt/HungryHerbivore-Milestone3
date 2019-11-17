@@ -4,7 +4,7 @@
         <form action="{{url_for('update_recipe', recipe_id=recipe._id)}}" method="POST" class="form-color col s12">
             <div class="row">
                 <div class="input-field col s6">
-                    <i class="material-icons prefix">title</i>
+                    <i class="material-icons">title</i>
                     <input id="meal_name" name="meal_name" type="text" value="{{recipe.meal_name}}" required>
                     <label for="icon_prefix"> Recipe name!</label>
                 </div>
@@ -21,31 +21,31 @@
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">timer</i>
+                    <i class="material-icons">timer</i>
                     <input id="meal_time" name="meal_time" type="text" value="{{recipe.meal_time}}" required>
                     <label for="icon_prefix"> Total duration to complete!</label>
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">shopping_basket</i>
+                    <i class="material-icons">shopping_basket</i>
                     <textarea id="meal_ingredients" name="meal_ingredients">{{recipe.meal_ingredients}} required</textarea>
                     <label for="icon_prefix"> List of ingredients!</label>
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">outdoor_grill</i>
+                    <i class="material-icons">outdoor_grill</i>
                     <textarea id="meal_requirements" name="meal_requirements">{{recipe.meal_requirements}} required</textarea>
                     <label for="icon_prefix"> Equipment needed!</label>
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">list</i>
+                    <i class="material-icons">list</i>
                     <textarea id="meal_method" name="meal_method">{{recipe.meal_method}} required</textarea>
                     <label for="icon_prefix"> Method!</label>
                 </div>
 
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">speaker_notes</i>
+                    <i class="material-icons">speaker_notes</i>
                     <textarea id="meal_comment" name="meal_comment">{{recipe.meal_comment}} required</textarea>
                     <label for="icon_prefix"> Any notes!</label>
                 </div>

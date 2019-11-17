@@ -47,11 +47,7 @@ body {
     margin: 0 auto;
 }
 
-.input-field input:focus+label {
-    color: #8E00C3 !important;
-}
-
-.input-field i:focus {
+.input-field input+textarea:focus+label {
     color: #8E00C3 !important;
 }
 
