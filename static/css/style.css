@@ -47,7 +47,7 @@ body {
     margin: 0 auto;
 }
 
-.form-color:focus {
+.input-field input:focus+label {
     color: #8E00C3 !important;
 }
 
