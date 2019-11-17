@@ -10,15 +10,17 @@
 
 <body>
     <header>
-        <nav class="nav-color">
-            <div class="nav-wrapper">
-                <a href="{{url_for('get_recipes')}}" class="brand-logo nav-text nav-logo">Hungry Herbivore</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="{{url_for('get_recipes')}}"><i class="material-icons nav-text">apps</i></a></li>
-                    <li><a href="{{url_for('add_recipe')}}"><i class="material-icons nav-text">add</i></a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="row">
+            <nav class="nav-color">
+                <div class="nav-wrapper">
+                    <a href="{{url_for('get_recipes')}}" class="brand-logo nav-text nav-logo col s10">Hungry Herbivore</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="{{url_for('get_recipes')}}"><i class="material-icons nav-text col s0">apps</i></a></li>
+                        <li><a href="{{url_for('add_recipe')}}"><i class="material-icons nav-text col s2">add</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     {% block content %} {% endblock %}
     <div>
@@ -57,9 +59,6 @@
             $('.collapsible').collapsible();
             $('select').material_select();
         });
-         $('.key-search-novice').click(function(){
-                alert("this will soon display novice");
-            });
     </script>
 </body>
 
