@@ -47,7 +47,7 @@ body {
     margin: 0 auto;
 }
 
-.input-field input:focus+label {
+.input-field .icon-interact input:focus+label {
     color: #8E00C3 !important;
 }
 
