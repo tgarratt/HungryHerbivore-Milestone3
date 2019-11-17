@@ -47,6 +47,10 @@ body {
     margin: 0 auto;
 }
 
+.form-color:active {
+    color: #8E00C3 !important;
+}
+
 /*--------------------------------------------- NAV BAR */
 
 .nav-logo {
