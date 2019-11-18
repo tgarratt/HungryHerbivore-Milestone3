@@ -58,6 +58,10 @@ body {
     color: #8E00C3 !important;
 }
 
+.nav-icon {
+    font-size: 25px;
+}
+
 .nav-color {
     background-color: #ECE9E9 !important;
 }
@@ -170,11 +174,11 @@ footer {
     color: #8E00C3 !important;
 }
 
-/*--------------------------------------------- MOBILE */
+/*--------------------------------------------- MEDIA */
 
+
+/*---------------------------------- MOBILE */
 @media(max-width: 767px) {
-
-    /*--------------------------------mobile-key */
     .mobile-key-text-novice {
         color: #00e676 !important;
     }
