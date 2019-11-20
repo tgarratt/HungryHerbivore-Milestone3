@@ -47,6 +47,10 @@ body {
     margin: 0 auto;
 }
 
+.float-right {
+    float: right;
+}
+
 /*--------------------------------------------- NAV BAR */
 
 .nav-logo {
