@@ -23,6 +23,23 @@
     </div>
 </div>
 
+<div>
+    <form action="">
+        <div>
+            <label for="">difficulty</label>
+            <select name="difficulty" id="">
+               <option value="1">novice</option>
+               <option value="2">competent</option>
+               <option value="3">intermediate</option>
+               <option value="4">advanced</option>
+               <option value="5">professional</option>
+           </select>
+        </div>
+        <button type="submit">Filter</button>
+
+    </form>
+</div>
+
 <div class="page-content-recipes">
     <ul class="collapsible" data-collapsible="accordion">
         {% for recipe in recipes %}
