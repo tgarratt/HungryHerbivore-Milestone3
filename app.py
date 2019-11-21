@@ -63,8 +63,8 @@ def view_recipe(recipe_id):
 @app.route('/filter', methods=["POST"])
 def filter():
     difficulty =request.form['difficulty-filter']
-    mongo.db.collection.find({},{"difficulty": difficulty})
-    return ("Hello world!")
+    return mongo.db.collection.find({},{"difficulty": difficulty})
+     
     
 if __name__ ==  '__main__':
     app.run(host=os.environ.get('IP'),
