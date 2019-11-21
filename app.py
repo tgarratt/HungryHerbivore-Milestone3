@@ -62,8 +62,8 @@ def view_recipe(recipe_id):
   
 @app.route('/filter', methods=["POST"])
 def filter():
-    difficulty =request.form['difficulty-filter']
-    return mongo.db.collection.find({},{"difficulty": difficulty})
+    difficulty = "5"  #request.form['difficulty-filter']
+    return mongo.db.collection.find({},{"difficulty": difficulty}).fetchall() 
      
     
 if __name__ ==  '__main__':
