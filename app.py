@@ -60,7 +60,7 @@ def view_recipe(recipe_id):
   all_categories = mongo.db.categories.find()
   return render_template('viewrecipe.html', recipe=the_recipe)
   
-@app.route('/filter', methods=['POST'])
+@app.route('/filter')
 def filter():
     difficulty =request.form['difficulty-filter']
     db.collection.find({},{"difficulty": difficulty})
