@@ -59,6 +59,12 @@ def view_recipe(recipe_id):
   the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
   all_categories = mongo.db.categories.find()
   return render_template('viewrecipe.html', recipe=the_recipe)
+  
+@app.route('/filter', methods=["GET"])
+def filter():
+    difficulty =request.form['difficulty-filter']
+    db.collection.find({},{"difficulty": difficulty})
+
     
 if __name__ ==  '__main__':
     app.run(host=os.environ.get('IP'),
