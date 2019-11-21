@@ -64,7 +64,7 @@ def view_recipe(recipe_id):
 def filter():
     difficulty =request.form['difficulty-filter']
     db.collection.find({},{"difficulty": difficulty})
-    return render_template("recipes.html")
+    return ("Hello world!")
     
 if __name__ ==  '__main__':
     app.run(host=os.environ.get('IP'),
