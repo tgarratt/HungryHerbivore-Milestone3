@@ -62,8 +62,8 @@ def view_recipe(recipe_id):
   
 @app.route('/filter', methods=["GET"])
 def filter():
-    difficulty =request.form['difficulty-filter']
-    db.collection.find({},{"difficulty": difficulty})
+#    difficulty =request.form['difficulty-filter']
+#    db.collection.find({},{"difficulty": difficulty})
     return ("Hello world!")
     
 if __name__ ==  '__main__':
