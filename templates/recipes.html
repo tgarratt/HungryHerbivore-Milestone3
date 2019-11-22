@@ -21,9 +21,11 @@
         <div class="mobile-key-text-professional"> Professional</div>
         <i class="material-icons professional mobile-hide">restaurant</i>
     </div>
-    </div>
-    <div class="search-form row m12"> 
-        <div>
+
+</div>
+<div class="row">
+    <div class="search-form row col m12">
+        <div class="col m6">
             <form action="{{url_for('filter')}}" method="post">
                 <div>
                     <select name="difficulty-filter" id="difficulty-filter" required>
@@ -36,13 +38,12 @@
                 </select>
                 </div>
         </div>
-        <div class= "search-button">
+        <div class="search-button col m6">
             <button class="btn waves-effect waves-light buttons buttons-hover " type="submit" name="action">Go!</button>
         </div>
         </form>
-
     </div>
-
+</div>
 
 <div class="page-content-recipes">
     <ul class="collapsible" data-collapsible="accordion">
