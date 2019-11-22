@@ -25,11 +25,12 @@
 </div>
 <div class="search-form row">
     <div class="row col m12">
-        <div class="col m6">
-            <form action="{{url_for('filter')}}" method="post">
+
+        <form action="{{url_for('filter')}}" method="post">
+            <div class="col m6 select-dropdown">
                 <div class="search-select">
                     <select name="difficulty-filter" id="difficulty-filter" required>
-                    <option value="" disabled selected>Filter!</option>
+                    <option value="1" disabled selected>Filter!</option>
                     <option value="1">novice</option>
                     <option value="2">competent</option>
                     <option value="3">intermediate</option>
@@ -37,10 +38,15 @@
                     <option value="5">professional</option>
                 </select>
                 </div>
-        </div>
-        <div class="search-button col m6">
-            <button class="btn waves-effect waves-light buttons buttons-hover " type="submit" name="action">Go!</button>
-        </div>
+            </div>
+            <div class="row col m6">
+                <div class="search-button buttons-hover col m6">
+                    <button class="btn waves-effect waves-light buttons buttons-hover " type="submit" name="action">Go!</button>
+                </div>
+                <div class="search-button buttons-hover col m6">
+                    <a href="{{url_for('get_recipes')}}" class="waves-effect waves-light btn buttons buttons-hover">Clear!</a>
+                </div>
+            </div>
         </form>
     </div>
 </div>

@@ -116,10 +116,17 @@ body {
     text-align: center;
 }
 
-.search-button {
-    width: 25px !important;
-    height: 13px !important;
+/*--------------------------------------------- FILTER */
 
+.search-button {
+    width: 15px !important;
+    height: 10px !important;
+    font-size: small;
+
+}
+
+.select-dropdown {
+    width: 200px;
 }
 
 .search-form {
