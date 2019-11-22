@@ -1,28 +1,29 @@
 {% extends 'parent.html'%} {% block content %}
 
 <div class="key-content mobile-key row">
-    <div class="col m2 key-info key-width">
+    <div class="col m2.4 key-info key-width">
         <div class="mobile-key-text-novice">Novice</div>
         <i class="material-icons novice mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 key-info key-width">
+    <div class="col m2.4 key-info key-width">
         <div class="mobile-key-text-competent"> Competent</div>
         <i class="material-icons competent mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 key-info key-width">
+    <div class="col m2.4 key-info key-width">
         <div class="mobile-key-text-intermediate"> Intermediate</div>
         <i class="material-icons intermediate mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 key-info key-width">
+    <div class="col m2.4 key-info key-width">
         <div class="mobile-key-text-advanced"> Advanced</div>
         <i class="material-icons advanced mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 key-info key-width">
+    <div class="col m2.4 key-info key-width">
         <div class="mobile-key-text-professional"> Professional</div>
         <i class="material-icons professional mobile-hide">restaurant</i>
     </div>
-    <div>
-        <div class="col m1 .key-info">
+    </div>
+    <div class="search-form"> 
+        <div>
             <form action="{{url_for('filter')}}" method="post">
                 <div>
                     <select name="difficulty-filter" id="difficulty-filter" required>
@@ -35,13 +36,13 @@
                 </select>
                 </div>
         </div>
-        <div class= "col m1 key-submit key-info">
+        <div class= "search-button">
             <button class="btn waves-effect waves-light buttons buttons-hover " type="submit" name="action">Go!</button>
         </div>
         </form>
 
     </div>
-</div>
+
 
 <div class="page-content-recipes">
     <ul class="collapsible" data-collapsible="accordion">
