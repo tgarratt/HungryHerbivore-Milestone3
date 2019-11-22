@@ -24,7 +24,7 @@
     <div class="float-right">
         <form action="{{url_for('filter')}}" method="post">
             <div>
-                <select multiple name="difficulty-filter" id="difficulty-filter">
+                <select multiple name="difficulty-filter" id="difficulty-filter" required>
                      <option value="" disabled selected>Filter difficulty!</option>
                     <option value="1">novice</option>
                     <option value="2">competent</option>
@@ -33,7 +33,7 @@
                     <option value="5">professional</option>
                 </select>
             </div>
-            <button type="submit">Go!</button>
+              <button class="btn waves-effect waves-light buttons buttons-hover" type="submit" name="action">Search!</button>
 
         </form>
     </div>
