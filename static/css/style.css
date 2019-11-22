@@ -119,9 +119,10 @@ body {
 /*--------------------------------------------- FILTER */
 
 .search-button {
-    width: 15px !important;
-    height: 10px !important;
+    width: 40px !important;
+    height: 20px !important;
     font-size: small;
+    border: 5px;
 
 }
 
