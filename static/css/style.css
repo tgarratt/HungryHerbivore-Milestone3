@@ -132,7 +132,8 @@ body {
 }
 
 .search-select {
-    background-color: #ECE9E9; 
+    background-color: #ffffff;
+    border-radius: 25px;
 }
 
 /*--------------------------------------------- MODIFY RECIPE */
