@@ -120,6 +120,11 @@ body {
     text-align: center;
 }
 
+.key-submit {
+    width: 20px !important;
+    height: 10px !important;
+}
+
 /*--------------------------------------------- MODIFY RECIPE */
 
 .button-delete {
