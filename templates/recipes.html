@@ -25,7 +25,6 @@
 </div>
 <div class="search-form row">
     <div class="row col m12">
-
         <form action="{{url_for('filter')}}" method="post">
             <div class="col m6 select-dropdown">
                 <div class="search-select">
@@ -44,7 +43,7 @@
                     <button class="buttons-hover search-button" type="submit" name="action">Go!</button>
                 </div>
                 <div class="col m6">
-                    <a href="{{url_for('get_recipes')}}" class="buttons-hover search-button">Clear!</a>
+                    <button><a href="{{url_for('get_recipes')}}" class="buttons-hover search-button">Clear!</a></button>
                 </div>
             </div>
         </form>
