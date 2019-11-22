@@ -1,30 +1,31 @@
 {% extends 'parent.html'%} {% block content %}
 
 <div class="key-content mobile-key row">
-    <div class="col m2 key-info key-width key-text">
+    <div class="col m2 key-info key-width">
         <div class="mobile-key-text-novice">Novice</div>
         <i class="material-icons novice mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 key-info key-width key-text">
+    <div class="col m2 key-info key-width">
         <div class="mobile-key-text-competent"> Competent</div>
         <i class="material-icons competent mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 key-info key-width key-text">
+    <div class="col m2 key-info key-width">
         <div class="mobile-key-text-intermediate"> Intermediate</div>
         <i class="material-icons intermediate mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 key-info key-width key-text">
+    <div class="col m2 key-info key-width">
         <div class="mobile-key-text-advanced"> Advanced</div>
         <i class="material-icons advanced mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 key-info key-width key-text">
+    <div class="col m2 key-info key-width">
         <div class="mobile-key-text-professional"> Professional</div>
         <i class="material-icons professional mobile-hide">restaurant</i>
     </div>
-    <div class="col m2 .key-info key-text">
-        <form action="{{url_for('filter')}}" method="post">
-            <div>
-                <select name="difficulty-filter" id="difficulty-filter" required>
+    <div>
+        <div class="col m1 .key-info">
+            <form action="{{url_for('filter')}}" method="post">
+                <div>
+                    <select name="difficulty-filter" id="difficulty-filter" required>
                     <option value="" disabled selected>Filter!</option>
                     <option value="1">novice</option>
                     <option value="2">competent</option>
@@ -32,10 +33,13 @@
                     <option value="4">advanced</option>
                     <option value="5">professional</option>
                 </select>
-            </div>
-              <button class="btn waves-effect waves-light buttons buttons-hover key-submit" type="submit" name="action">Search!</button>
-
+                </div>
+        </div>
+        <div class= "col m1 key-submit key-info">
+            <button class="btn waves-effect waves-light buttons buttons-hover " type="submit" name="action">Search!</button>
+        </div>
         </form>
+
     </div>
 </div>
 
@@ -46,15 +50,15 @@
             <div class="collapsible-header row">
                 <div class="col l1">
                     <i class="col s1 material-icons icon-size 
-                {% if recipe.difficulty == "1" %}
+                {% if recipe.difficulty == " 1 " %}
                 green-text text-accent-3
-                {% elif recipe.difficulty == "2" %}
+                {% elif recipe.difficulty == "2 " %}
                 light-blue-text text-lighten-2 
-                {% elif recipe.difficulty == "3" %}
+                {% elif recipe.difficulty == "3 " %}
                 amber-text text-darken-2
-                {% elif recipe.difficulty == "4" %}
+                {% elif recipe.difficulty == "4 " %}
                 red-text text-darken-2
-                {% elif recipe.difficulty == "5" %}
+                {% elif recipe.difficulty == "5 " %}
                 black-text
                 {% endif %}">restaurant </i>
                 </div>
