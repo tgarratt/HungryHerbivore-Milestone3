@@ -127,7 +127,10 @@ body {
 }
 
 .select-dropdown {
-    width: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 5px;
 }
 
 .search-form {
@@ -137,12 +140,6 @@ body {
     margin-right: auto;
     width: 20%;
     border-radius: 25px;
-}
-
-.search-select {
-    background-color: #ffffff;
-    border-radius: 25px;
-    padding: 5px;
 }
 
 /*--------------------------------------------- MODIFY RECIPE */
