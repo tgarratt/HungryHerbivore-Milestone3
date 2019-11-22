@@ -131,6 +131,10 @@ body {
     border-radius: 25px;
 }
 
+.search-select {
+    background-color: #ECE9E9; 
+}
+
 /*--------------------------------------------- MODIFY RECIPE */
 
 .button-delete {
