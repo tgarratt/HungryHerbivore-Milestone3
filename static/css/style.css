@@ -244,17 +244,17 @@ footer {
         margin-bottom: 10px;
     }
     .nav-head-mobile {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     .filter-mobile {
-        width: 300px;
+        width: 250px;
     }
 }
 
-/*---------------------------------- ALL BUT MOBILE */
+/*---------------------------------- MOBILE ONLY */
 
 @media(min-width: 768px) {
-    .not-mobile {
+    .mobile-only {
         display: none;
     }
 
