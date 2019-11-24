@@ -243,10 +243,6 @@ footer {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .mobile-buttons {
-        width: 60px !important;
-        height: 30px !important;
-    }
     .nav-head-mobile {
         font-size: 24px;
     }
@@ -258,7 +254,7 @@ footer {
 /*---------------------------------- ALL BUT MOBILE */
 
 @media(min-width: 768px) {
-    .mobile-only {
+    .not-mobile {
         display: none;
     }
 
