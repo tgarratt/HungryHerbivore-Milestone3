@@ -238,7 +238,10 @@ footer {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
+    .mobile-buttons {
+        width: 100px;
+        height: 50px;
+    }
 }
 
 /*---------------------------------- ALL BUT MOBILE */
@@ -247,6 +250,6 @@ footer {
     .mobile-only {
         display: none;
     }
-    
-    
+
+
 }
