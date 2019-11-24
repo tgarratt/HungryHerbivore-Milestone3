@@ -126,16 +126,14 @@ body {
     width: 75px !important;
     height: 50px !important;
     font-size: small !important;
-    border: 10px;
-    background-color: #ffffff;
     text-align: center;
-
+    border: 5px;
+    padding: 5px;
 }
 
 .select-dropdown {
     width: 400px;
-    background-color: #ffffff;
-    border-radius: 25px;
+    border: 5px;
     padding: 5px;
 }
 
@@ -146,6 +144,7 @@ body {
     margin-right: auto;
     width: 20%;
     border-radius: 25px;
+    background-color: #ffffff;
 }
 
 .search-button-hover:hover {
