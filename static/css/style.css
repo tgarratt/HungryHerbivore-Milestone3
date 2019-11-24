@@ -53,6 +53,11 @@ body {
 
 /*--------------------------------------------- NAV BAR */
 
+.targeted-nav {
+    width: 100% !important;
+    background-color: #ECE9E9 !important;
+}
+
 .nav-logo {
     font-family: 'Aleo';
     margin-left: 20px;
@@ -64,10 +69,6 @@ body {
 
 .nav-icon {
     font-size: 25px;
-}
-
-.nav-color {
-    background-color: #ECE9E9 !important;
 }
 
 .mobile-nav-hover:hover {
