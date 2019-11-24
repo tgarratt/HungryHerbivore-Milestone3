@@ -235,3 +235,13 @@ footer {
     }
 
 }
+
+/*---------------------------------- ALL BUT MOBILE */
+
+@media(min-width: 768px) {
+    .sidenav-trigger {
+        display: none;
+    }
+    
+    
+}
