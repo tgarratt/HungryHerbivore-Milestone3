@@ -13,6 +13,13 @@
         <nav class="nav-color">
             <div class="nav-wrapper">
                 <a href="{{url_for('get_recipes')}}" class="brand-logo nav-text nav-logo">Hungry Herbivore</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
                 <ul class="right mobile-hide">
                     <li><a href="{{url_for('get_recipes')}}"><i class="material-icons nav-text">apps</i></a></li>
                     <li><a href="{{url_for('add_recipe')}}"><i class="material-icons nav-text">add</i></a></li>
@@ -56,6 +63,7 @@
         $(document).ready(function() {
             $('.collapsible').collapsible();
             $('select').material_select();
+            $(".button-collapse").sideNav();
         });
     </script>
 </body>
