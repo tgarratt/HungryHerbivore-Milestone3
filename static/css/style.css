@@ -124,6 +124,7 @@ body {
     font-size: small !important;
     border: 10px;
     background-color: #ffffff;
+    text-align: center;
 
 }
 
@@ -239,7 +240,7 @@ footer {
 /*---------------------------------- ALL BUT MOBILE */
 
 @media(min-width: 768px) {
-    .sidenav-trigger {
+    .mobile-only {
         display: none;
     }
     
