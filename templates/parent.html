@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+/*--------------------------------------------------------------------------------- HEAD START */
+
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
@@ -8,12 +10,15 @@
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css" />
 </head>
 
+/*--------------------------------------------------------------------------------- HEAD END */
+/*--------------------------------------------------------------------------------- NAV BAR START */
+
 <body>
     <header>
         <nav class="nav-color">
             <div class="nav-wrapper">
                 <a href="{{url_for('get_recipes')}}" class="brand-logo nav-text nav-logo nav-head-mobile">Hungry Herbivore</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse nav-text"><i class="material-icons">menu</i></a>
                 <ul class="right mobile-hide">
                     <li><a href="{{url_for('get_recipes')}}"><i class="material-icons nav-text">apps</i></a></li>
                     <li><a href="{{url_for('add_recipe')}}"><i class="material-icons nav-text">add</i></a></li>
@@ -25,7 +30,13 @@
             </div>
         </nav>
     </header>
+
+/*--------------------------------------------------------------------------------- NAV BAR END */
+    
     {% block content %} {% endblock %}
+    
+/*--------------------------------------------------------------------------------- FOOTER START */
+    
     <div>
         <footer>
             <div class="footer-text row">
@@ -54,6 +65,10 @@
             </div>
         </footer>
     </div>
+    
+    /*--------------------------------------------------------------------------------- FOOTER END */
+    /*--------------------------------------------------------------------------------- DJANGO START */
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="display/js/main.js"></script>
@@ -64,6 +79,9 @@
             $(".button-collapse").sideNav();
         });
     </script>
+    
+/*--------------------------------------------------------------------------------- DJANGO END */
+    
 </body>
 
 </html>

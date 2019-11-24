@@ -1,5 +1,8 @@
 {% extends 'parent.html'%} {% block content %}
 <div class="page-content">
+    
+/*--------------------------------------------------------------------------------- FORM CONTENT START */
+    
     <div class="row">
         <form action="{{url_for('submit_recipe')}}" method="POST" class="col s12">
             <div class="row">
@@ -50,6 +53,9 @@
 
             </div>
 
+/*--------------------------------------------------------------------------------- FORM CONTENT END */
+/*--------------------------------------------------------------------------------- FORM SUBMIT START */
+
             <div>
                 <button class="btn waves-effect waves-light buttons buttons-hover" type="submit" name="action">Add recipe
                 <i class="material-icons right">send</i>
@@ -57,5 +63,8 @@
             </div>
         </form>
     </div>
+    
+/*--------------------------------------------------------------------------------- FORM SUBMIT END */
+    
 </div>
 {% endblock %}

@@ -1,6 +1,9 @@
 {% extends 'parent.html'%} {% block content %}
 
 <div class="page-content">
+
+/*--------------------------------------------------------------------------------- RECIPE DISPLAY START */
+
     <div class="recipe-header row">
         <h3 class="col l12">
             <u>{{recipe.meal_name}}</u>
@@ -28,11 +31,21 @@
             <div>{{recipe.meal_requirements}}</div>
         </div>
     </div>
+
+/*--------------------------------------------------------------------------------- RECIPE DISPLAY END */
+/*--------------------------------------------------------------------------------- BUTTONS START */
+
     <div class="row">
-        <div class="col l2">
-            <a href="{{url_for('get_recipes')}}" class="waves-effect waves-light btn buttons buttons-hover">Back</a>
+        <div class="col s6 m6 l6">
+            <div class="col s6 m6 l6">
+                <a href="{{url_for('get_recipes')}}" class="waves-effect waves-light btn buttons buttons-hover">Back</a>
+            </div>
+            <div class="col s6 m6 l6">
+                <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons buttons-hover mobile-buttons">Modify</a>
+            </div>
         </div>
     </div>
 </div>
 
+/*--------------------------------------------------------------------------------- BUTTONS END */ 
 {% endblock %}
