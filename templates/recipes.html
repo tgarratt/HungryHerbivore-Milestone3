@@ -78,10 +78,10 @@
                     <strong>{{recipe.meal_name}}</strong> - {{recipe.meal_time}}
                 </div>
                 <div class="col s6 m6 l2">
-                    <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons buttons-hover">Recipe</a>
+                    <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover">Recipe</a>
                 </div>
                 <div class="col s6 m6 l2">
-                    <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons buttons-hover">Modify</a>
+                    <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover">Modify</a>
                 </div>
             </div>
             <div class="collapsible-body">
