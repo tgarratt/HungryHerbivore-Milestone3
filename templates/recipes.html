@@ -51,7 +51,7 @@
         {% for recipe in recipes %}
         <li>
             <div class="collapsible-header row">
-                <div class="col l1">
+                <div class="col s1 m1 l1">
                     <i class="col s1 material-icons icon-size 
                 {% if recipe.difficulty == "1" %}
                 green-text text-accent-3
@@ -65,13 +65,13 @@
                 black-text
                 {% endif %}">restaurant </i>
                 </div>
-                <div class="col l7">
+                <div class="col s11 m11 l7">
                     <strong>{{recipe.meal_name}}</strong> - {{recipe.meal_time}}
                 </div>
-                <div class="col l2">
+                <div class="col s6 m6 l2">
                     <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons buttons-hover">Recipe</a>
                 </div>
-                <div class="col l2">
+                <div class="col s6 m6 l2">
                     <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons buttons-hover">Modify</a>
                 </div>
             </div>
