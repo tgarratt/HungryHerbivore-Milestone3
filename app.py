@@ -1,14 +1,9 @@
-/*--------------------------------------------------------------------------------- IMPORTS START */
-
 import os
 from flask import Flask, render_template, redirect, request, url_for
 from flask_pymongo import PyMongo
 from flask_wtf import FlaskForm
 from wtforms.validators import DataRequired
 from bson.objectid import ObjectId
-
-/*--------------------------------------------------------------------------------- IMPORTS END */
-/*--------------------------------------------------------------------------------- CONNECTIONS START */
 
 app = Flask(__name__)
 
@@ -17,8 +12,6 @@ app.config['MONGO_URI'] = os.environ.get('MONGO_URL')
 
 mongo = PyMongo(app)
 
-/*--------------------------------------------------------------------------------- CONNECTIONS END */
-/*--------------------------------------------------------------------------------- @ROUTE START */
 
 @app.route('/')
 @app.route('/get_recipes')
@@ -77,13 +70,9 @@ def filter():
         my_res += str(doc)
     return my_res
      
-
-/*--------------------------------------------------------------------------------- @ROUTE END */
-/*--------------------------------------------------------------------------------- DEBUG + HEROKU START */
     
 if __name__ ==  '__main__':
     app.run(host=os.environ.get('IP'),
         port=int(os.environ.get('PORT')),
         debug=True)
     
-/*--------------------------------------------------------------------------------- DEBUG + HEROKU START */
