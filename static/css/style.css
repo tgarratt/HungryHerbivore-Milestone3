@@ -70,6 +70,10 @@ body {
     background-color: #ECE9E9 !important;
 }
 
+.mobile-nav-hover:hover {
+    background-color: #B989CA !important
+}
+
 /*--------------------------------------------- RECIPES */
 
 .icon-size {
@@ -241,6 +245,9 @@ footer {
     .mobile-buttons {
         width: 60px !important;
         height: 30px !important;
+    }
+    .nav-head-mobile {
+        font-size: 24px;
     }
 }
 
