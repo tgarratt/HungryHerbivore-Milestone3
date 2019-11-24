@@ -119,10 +119,11 @@ body {
 /*--------------------------------------------- FILTER */
 
 .search-button {
-    width: 100px !important;
+    width: 75px !important;
     height: 50px !important;
     font-size: small !important;
-    border: 5px;
+    border: 10px;
+    background-color: #ffffff;
 
 }
 
@@ -140,6 +141,11 @@ body {
     margin-right: auto;
     width: 20%;
     border-radius: 25px;
+}
+
+.search-button-hover:hover {
+    color: #8E00C3;
+    transition: 0.5s;
 }
 
 /*--------------------------------------------- MODIFY RECIPE */
