@@ -300,6 +300,6 @@ footer {
         width: 150px;
     }
     .recipe-button-larger-border {
-        border-right: 100px !important; 
+        display: inline-block;
     }
 }
