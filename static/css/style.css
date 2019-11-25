@@ -288,7 +288,7 @@ footer {
 
 @media(min-width: 768px) {
     .mobile-only {
-        display: none;
+        display: none !important;
     }
 
 /*---------------------------------- LARGE ONLY */
@@ -298,5 +298,8 @@ footer {
 @media(min-width: 992px) {
     .large-only-button {
         width: 150px;
+    }
+    .recipe-button-larger-border {
+        border-right: 50px;
     }
 }
