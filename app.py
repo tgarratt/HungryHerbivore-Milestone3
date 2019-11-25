@@ -68,7 +68,7 @@ def filter():
     my_res = ""
     for doc in result_cursor:
         my_res += str(doc)
-    return render_template("recipes.html", recipes=my_res)
+    return redirect(url_for('get_recipes'))
      
     
 if __name__ ==  '__main__':
