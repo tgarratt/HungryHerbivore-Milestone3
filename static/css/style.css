@@ -290,3 +290,9 @@ footer {
 
 
 }
+
+@media(min-width: 992px) {
+    .large-only-button {
+        width: 200px;
+    }
+}
