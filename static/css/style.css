@@ -279,6 +279,9 @@ footer {
     .float-left-icon-mobile {
         float: left;
     }
+    .footer-mobile {
+        font-size: x-small !important;
+    }
 }
 
 /*---------------------------------- MOBILE ONLY */
