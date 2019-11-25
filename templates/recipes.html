@@ -80,15 +80,15 @@
 
                 <div class="col s6 m1 l1 float-left-icon-mobile">
                     <i class="col s1 material-icons icon-size 
-                {% if recipe.difficulty == " 1 " %}
+                {% if recipe.difficulty == "1" %}
                 green-text text-accent-3
-                {% elif recipe.difficulty == "2 " %}
+                {% elif recipe.difficulty == "2" %}
                 light-blue-text text-lighten-2 
-                {% elif recipe.difficulty == "3 " %}
+                {% elif recipe.difficulty == "3" %}
                 amber-text text-darken-2
-                {% elif recipe.difficulty == "4 " %}
+                {% elif recipe.difficulty == "4" %}
                 red-text text-darken-2
-                {% elif recipe.difficulty == "5 " %}
+                {% elif recipe.difficulty == "5" %}
                 black-text
                 {% endif %}">restaurant </i>
                     <i class="material-icons dropdown-icon-size">
@@ -107,9 +107,9 @@
                             <i class="material-icons">list</i>
                         </a>
                     </div>
-                    <div class="mobile-hide recipe-button-larger-border">
-                        <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover large-only-button">Recipe</a>
-                        <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover large-only-button">Modify</a>
+                    <div class="mobile-hide">
+                        <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover large-only-button recipe-button-larger-border">Recipe</a>
+                        <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover large-only-button recipe-button-larger-border">Modify</a>
                     </div>
                 </div>
                 <div class="collapsible-body">
