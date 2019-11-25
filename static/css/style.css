@@ -300,6 +300,6 @@ footer {
         width: 150px;
     }
     .recipe-button-larger-border {
-        margin-right: 100px !important; 
+        border-right: 100px !important; 
     }
 }
