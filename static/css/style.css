@@ -271,6 +271,9 @@ footer {
     .filter-mobile {
         width: 225px;
     }
+    .float-left-icon-mobile {
+        float: left;
+    }
 }
 
 /*---------------------------------- MOBILE ONLY */
