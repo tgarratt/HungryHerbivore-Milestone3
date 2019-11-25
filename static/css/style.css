@@ -101,6 +101,10 @@ body {
     margin: 10px;
 }
 
+.dropdown-icon-size {
+    font-size: 50%;
+}
+
 /*--------------------------------------------- KEY */
 
 .novice {
