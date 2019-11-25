@@ -99,10 +99,14 @@
                     </div>
                 </div>
                 <div class="col s6 m6 l2 wrap">
-                    <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover mobile-only">
-                        <i class="material-icons">list</i>
-                    </a>
-                    <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover mobile-hide">Recipe</a>
+                    <div class="mobile-only">
+                        <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover">
+                            <i class="material-icons">list</i>
+                        </a>
+                    </div>
+                    <div class="mobile-hide">
+                        <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover">Recipe</a>
+                    </div>
                 </div>
                 <div class="col s6 m6 l2 mobile-hide">
                     <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover">Modify</a>
