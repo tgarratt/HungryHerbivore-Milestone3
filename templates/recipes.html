@@ -2,33 +2,33 @@
 
 <!--------------------------------------------------------------------------------- KEY START --->
 
-<div class="key-content mobile-key row">
+<div class="key-content row">
     <div class="col m2.4 l2.4 key-info key-width">
         <div class="mobile-key-text-novice">Novice</div>
         <i class="material-icons novice mobile-hide">restaurant</i>
     </div>
-    <div class="mobile-only">
+    <div class="mobile-only center">
         <br>
     </div>
     <div class="col m2.4 l2.4 key-info key-width">
         <div class="mobile-key-text-competent"> Competent</div>
         <i class="material-icons competent mobile-hide">restaurant</i>
     </div>
-    <div class="mobile-only">
+    <div class="mobile-only center">
         <br>
     </div>
     <div class="col m2.4 l2.4 key-info key-width">
         <div class="mobile-key-text-intermediate"> Intermediate</div>
         <i class="material-icons intermediate mobile-hide">restaurant</i>
     </div>
-    <div class="mobile-only">
+    <div class="mobile-only center">
         <br>
     </div>
     <div class="col m2.4 l2.4 key-info key-width">
         <div class="mobile-key-text-advanced"> Advanced</div>
         <i class="material-icons advanced mobile-hide">restaurant</i>
     </div>
-    <div class="mobile-only">
+    <div class="mobile-only center">
         <br>
     </div>
     <div class="col m2.4 l2.4 key-info key-width">
@@ -95,8 +95,8 @@
                 <div class="col s6 m6 l2">
                     <a href="{{url_for('view_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover">Recipe</a>
                 </div>
-                <div class="col s6 m6 l2">
-                    <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover mobile-hide">Modify</a>
+                <div class="col s6 m6 l2 mobile-hide">
+                    <a href="{{url_for('modify_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn buttons-recipes buttons-hover">Modify</a>
                 </div>
             </div>
             <div class="collapsible-body">

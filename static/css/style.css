@@ -50,6 +50,9 @@ body {
 .float-right {
     float: right;
 }
+.center {
+    text-align: center;
+}
 
 /*--------------------------------------------- NAV BAR */
 
