@@ -95,7 +95,7 @@ body {
 .buttons-recipes {
     margin: 8px;
     background-color: #8E00C3 !important;
-    display: block !important;
+    display: inline-block !important;
 }
 
 .recipe-name {
