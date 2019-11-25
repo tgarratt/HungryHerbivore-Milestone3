@@ -291,11 +291,12 @@ footer {
         display: none;
     }
 
+/*---------------------------------- LARGE ONLY */
 
 }
 
 @media(min-width: 992px) {
     .large-only-button {
-        width: 200px;
+        width: 150px;
     }
 }
