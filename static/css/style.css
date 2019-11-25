@@ -24,6 +24,7 @@ body {
 .buttons {
     margin: 8px;
     background-color: #8E00C3 !important;
+    display: inline-block;
 }
 
 .buttons-hover:hover {
