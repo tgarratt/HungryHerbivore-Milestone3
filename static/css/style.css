@@ -218,11 +218,10 @@ footer {
     width: 100%;
     background-color: #ECE9E9;
     color: #8E00C3;
-    position: fixed;
-    left: 0px;
-    bottom: 0;
-    height: 30px;
     position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
     
 }
 
