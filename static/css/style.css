@@ -246,27 +246,27 @@ footer {
 @media(max-width: 767px) {
     .mobile-key-text-novice {
         color: #00e676 !important;
-        width: 200px !important;
+        width: 10% !important;
         margin: auto!important;
     }
     .mobile-key-text-competent {
         color: #4fc3f7 !important;
-        width: 200px !important;
+        width: 10% !important;
         margin: auto!important;
     }
     .mobile-key-text-intermediate {
         color: #ffa000 !important;
-        width: 200px !important;
+        width: 10% !important;
         margin: auto!important;
     }
     .mobile-key-text-advanced {
         color: #d32f2f !important;
-        width: 200px !important;
+        width: 10% !important;
         margin: auto!important;
     }
     .mobile-key-text-professional {
         color: #000000 !important;
-        width: 200px !important;
+        width: 10% !important;
         margin: auto!important;
     }
     .mobile-hide {
