@@ -220,7 +220,7 @@ footer {
     color: #8E00C3;
     position: fixed;
     left: 0px;
-    bottom: 0px;
+    bottom: 0;
     height: 30px;
     position: absolute;
     
