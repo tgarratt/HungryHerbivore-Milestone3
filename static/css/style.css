@@ -246,20 +246,23 @@ footer {
 @media(max-width: 767px) {
     .mobile-key-text-novice {
         color: #00e676 !important;
-        text-align: center !important;
+        white-space: pre-line;
     }
     .mobile-key-text-competent {
         color: #4fc3f7 !important;
-        display: flex;
+        white-space: pre-line;
     }
     .mobile-key-text-intermediate {
         color: #ffa000 !important;
+        white-space: pre-line;
     }
     .mobile-key-text-advanced {
         color: #d32f2f !important;
+        white-space: pre-line;
     }
     .mobile-key-text-professional {
         color: #000000 !important;
+        white-space: pre-line;
     }
     .mobile-hide {
         display: none;
