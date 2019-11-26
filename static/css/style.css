@@ -246,9 +246,11 @@ footer {
 @media(max-width: 767px) {
     .mobile-key-text-novice {
         color: #00e676 !important;
+        text-align: center !important;
     }
     .mobile-key-text-competent {
         color: #4fc3f7 !important;
+        display: flex;
     }
     .mobile-key-text-intermediate {
         color: #ffa000 !important;
