@@ -24,7 +24,7 @@ body {
 .buttons {
     margin: 8px;
     background-color: #8E00C3 !important;
-    position:relative;
+    position: relative;
 }
 
 .buttons-hover:hover {
@@ -288,17 +288,5 @@ footer {
 @media(min-width: 768px) {
     .mobile-only {
         display: none !important;
-    }
-
-/*---------------------------------- LARGE ONLY */
-
-}
-
-@media(min-width: 992px) {
-    .large-only-button {
-        width: 150px;
-    }
-    .recipe-button-larger-border {
-        border-right: 100px;
     }
 }
