@@ -19,7 +19,7 @@ def get_recipes():
     difficulty = request.args.get('difficulty')
     if (difficulty):
         difficulty.equals(False)
-        return render_template("recipes.html", recipes= mongo.db.recipes.find())
+        return render_template("recipes.html", recipes=mongo.db.recipes.find())
     recipes = mongo.db.recipes.find(filter={"difficulty": difficulty})
     return render_template("recipes.html", recipes=recipes)
     
