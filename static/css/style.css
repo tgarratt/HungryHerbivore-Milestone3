@@ -105,13 +105,9 @@ body {
     font-size: 50%;
 }
 
-div:has(p) {
-    border-radius: 25px !important;
-    box-shadow: 5px 10px 8px 10px #888888;
-}
-
 p {
     text-align: center;
+    box-shadow: 5px 10px 8px 10px #888888;
 }
 
 /*--------------------------------------------- KEY */
