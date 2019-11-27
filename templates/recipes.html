@@ -61,6 +61,9 @@
 
 <div class="page-content-recipes">
     <ul class="collapsible" data-collapsible="accordion">
+        {% if recipes.count() >0 %}
+        <p>No recipes found.</p>
+        {% endif %}
         {% for recipe in recipes %}
         <li>
             <div class="col s12 mobile-only">
