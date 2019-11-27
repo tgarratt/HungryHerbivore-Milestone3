@@ -72,7 +72,7 @@
 
                 <div class="col s6 m1 l1 float-left-icon-mobile">
                     <i class="col s1 material-icons icon-size 
-                {% if recipe.difficulty == "1" %}
+                {% if recipe.difficulty == " 1" %}
                 green-text text-accent-3
                 {% elif recipe.difficulty == "2" %}
                 light-blue-text text-lighten-2 
@@ -114,9 +114,10 @@
             </span>
             </div>
         </li>
+        {% endfor %}
     </ul>
-    {% endfor %} {% else %}
-    <div>No recipes!</div>
+    {% else %}
+    <p>Emptyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy</p>
     {% endif %}
 </div>
 
