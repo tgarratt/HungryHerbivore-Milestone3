@@ -58,9 +58,6 @@
 
 <!--------------------------------------------------------------------------------- FILTER END --->
 <!--------------------------------------------------------------------------------- RECIPE CONTENT START --->
-{% if recipes.count() %}
-<p>No recipes here!</p>
-{% endif %}
 <div class="page-content-recipes">
     <ul class="collapsible" data-collapsible="accordion">
         {% for recipe in recipes %}
@@ -116,6 +113,8 @@
             </span>
             </div>
         </li>
+        {% empty %}
+        <p>No recipes here!</p>
         {% endfor %}
     </ul>
 
