@@ -1,7 +1,7 @@
 {% extends 'parent.html'%} {% block content %}
 <div class="page-content">
     
-<!--------------------------------------------------------------------------------- MODIFY CONTENT START --->
+<!-- MODIFY CONTENT START -->
     
     <div class="row">
         <form action="{{url_for('update_recipe', recipe_id=recipe._id)}}" method="POST" class="form-color col s12">
@@ -55,8 +55,8 @@
 
             </div>
 
-<!--------------------------------------------------------------------------------- MODIFY CONTENT END --->
-<!--------------------------------------------------------------------------------- MODIFY SUBMIT START --->
+<!-- MODIFY CONTENT END -->
+<!-- MODIFY SUBMIT START -->
 
             <div>
                 <button class="btn waves-effect waves-light buttons buttons-hover" type="submit" name="action">Update recipe
@@ -67,7 +67,7 @@
         </form>
     </div>
     
-<!--------------------------------------------------------------------------------- MODIFY SUBMIT END --->
+<!-- MODIFY SUBMIT END -->
     
 </div>
 {% endblock %}
