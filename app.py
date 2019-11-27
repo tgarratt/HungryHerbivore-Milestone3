@@ -16,8 +16,11 @@ mongo = PyMongo(app)
 @app.route('/')
 @app.route('/get_recipes', methods=['POST', 'GET'])
 def get_recipes():
+    filters= {}
     difficulty = request.args.get('difficulty')
-    recipes = mongo.db.recipes.find(filter={"difficulty": difficulty})
+    if (difficulty):
+        filters["difficulty"] = difficulty
+    recipes = mongo.db.recipes.find(filter=filters)
     return render_template("recipes.html", recipes=recipes)
     
     
