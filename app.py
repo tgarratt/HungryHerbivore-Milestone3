@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, redirect, request, url_for
+from flask import Flask, render_template, redirect, request, url_for, request
 from flask_pymongo import PyMongo
 from flask_wtf import FlaskForm
 from wtforms.validators import DataRequired
@@ -16,7 +16,7 @@ mongo = PyMongo(app)
 @app.route('/')
 @app.route('/get_recipes')
 def get_recipes():
-    
+    difficulty = request.form.get['difficulty-filter']
     return render_template("recipes.html", recipes=mongo.db.recipes.find())
     
     
