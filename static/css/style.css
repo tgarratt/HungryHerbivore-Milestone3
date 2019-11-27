@@ -105,6 +105,10 @@ body {
     font-size: 50%;
 }
 
+div:has(p) {
+    border-radius: 25px !important;
+}
+
 /*--------------------------------------------- KEY */
 
 .novice {
