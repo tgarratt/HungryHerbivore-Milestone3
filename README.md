@@ -1,21 +1,12 @@
-### Hungry Herbivore
+# Hungry Herbivore
 
-Hungry Herbivore is a website designed for individuals who are looking to expand their their vegan cooking knowlage and
-in my opinion the best way to do this is to see what other people are doing. Vegan food is really starting to take off
-becoming bigger and bigger each year but it can still be hard being a new vegan trying to fidn recipes that are tasty and
-provide a variety of ingredients (known from experiance).
+Hungry Herbivore is a website designed for individuals who are looking to expand their their vegan cooking knowlage and in my opinion the best way to do this is to see what other people are doing. Vegan food is really starting to take off becoming bigger and bigger each year but it can still be hard being a new vegan trying to fidn recipes that are tasty and provide a variety of ingredients (known from experiance).
 
-This is where Hungry Herbivore comes in and saves the day with its recipes being shared and its easy readability it can
-allow you to get that inspiration you need to cook an exciting meal. Including a search feature based on difficulty also 
-allows you to pick how adventurous you're feeling that day and get cooking!
+This is where Hungry Herbivore comes in and saves the day with its recipes being shared and its easy readability it can allow you to get that inspiration you need to cook an exciting meal. Including a search feature based on difficulty also allows you to pick how adventurous you're feeling that day and get cooking!
 
 ## UX
 
-The users were my main focus for this site,I wanted Hungry Herbivore to be very visually apealing  so I picked nice simple
-colors that go well together, I decided white and a soft purple and I think they fit perfectly. The homepage has
-accordions, though the recipe is viewed on a separate page to reduce the contend being cramped and look cleaner. Another feature
-is that it is easy to use, will notice you can get to any desired page within minimal clicks (with the only exception of mobile) 
-but still this saves the site user time on navigating and gives them more time to use the website for its purpse.
+The users were my main focus for this site,I wanted Hungry Herbivore to be very visually apealing  so I picked nice simple colors that go well together, I decided white and a soft purple and I think they fit perfectly. The homepage has accordions, though the recipe is viewed on a separate page to reduce the contend being cramped and look cleaner. Another feature is that it is easy to use, will notice you can get to any desired page within minimal clicks (with the only exception of mobile) but still this saves the site user time on navigating and gives them more time to use the website for its purpse.
 
 ### user stories
 
@@ -27,7 +18,25 @@ I belive that Hungry Herbivore meets all of these users preferances.
 
 ### display testing
 
-The /wireframes file will show two templates of how I planned the site, little has changed but I changed what was needed.
-For example the key now being at the top of the page takes less space and is easier to see. As with the accordian information
-I decided to give each recipe its own page to view. The accordian still displays a comment about the recipe which leaves the homepage
-telling you the recipe name, difficulty, cooking time and comment which I belive is plenty of information.
+The /wireframes file will show two templates of how I planned the site, little has changed but I changed what was needed. For example the key now being at the top of the page takes less space and is easier to see. As with the accordian information I decided to give each recipe its own page to view. The accordian still displays a comment about the recipe which leaves the homepage telling you the recipe name, difficulty, cooking time and comment which I belive is plenty of information.
+
+## Features
+
+- Viewing recipes, do this by chosing a recipe and clicking 'recipe' on desktop or the icon in mobile.
+- Adding recipe, do this by clicking the '+' icon in the nav bar, completing form and clicking 'add recipe'.
+- Edit a recipe, click edit next to recipe button on choses recipe on desktop or recipe then edit for mobile and change the forms content. Then click 'update recipe'.
+- Delete a recipe, do this by going into the edit page and there you will find a red delete button which removes the content from the database.
+- Filter recipes, by clicking the dropdown under the key and selecting a difficulty and hitting gp you can filter the page results for the skill level youve chosen.
+
+### Future features
+
+- More filters to get a more refined search and even adding more variables to the forms and database such as cusine styles or alergy friendly recipes.
+
+
+
+
+
+
+
+
+
