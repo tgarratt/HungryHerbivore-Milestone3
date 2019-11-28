@@ -60,7 +60,9 @@
 <!--RECIPE CONTENT START -->
 
 <div class="page-content-recipes">
+    {% if recipes.count() == 0 %}
     <p>No recipes here!</p>
+    {% else %}
     <ul class="collapsible" data-collapsible="accordion">
         {% for recipe in recipes %}
         <li>
@@ -116,6 +118,7 @@
             </div>
         </li>
         {% endfor %}
+        {% endif %}
     </ul>
 
 </div>
