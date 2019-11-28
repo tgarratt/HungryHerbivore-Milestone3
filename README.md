@@ -19,3 +19,20 @@ accordions, the recipe is viewed on a separate page and this is for the reason t
 e to breath and as a result be much more pleasing to look at. Another feature is that it is easy to use, to explain to you
 how you will notice you can get to any desired page within minimal clicks,with the only exception being on mobile to prevent
 screen clutter but still this saves the site user time on navigating and gives them more time to use the website for its purpse.
+
+### user stories
+
+- As someone who does not eat plant based everyday, it would be conviniant to be able to find simpler meals that allow for my skill range.
+- As an experianced vegan, I would like to be able to focus on more difficuly and complex recipes to bring the excitment back to cooking!
+- As somebody who is less experianced with technology, I would like a site that it not only displayed simply but also easy to use.
+
+I belive that Hungry Herbivore meets all of these users preferances.
+
+### display testing
+
+If you look into the /wireframes file you will then see two original templates of how I wanted the site to look. Not too much has
+changed however I modified only what I felt would improve the site. For example the key is planned to be at the left side of the page.
+I decided to change this as I felt it was taking up too much space here and was uneeded and I belive having it at the top of the page
+also makes it much easier to view. As with the accordian displaying all of the information I decided this make the site look too cramped 
+up so decided to give each recipe its own page to view. The accordian still functions displaying a comment about the recipe which
+totals to the homepage telling you the recipe name, difficulty, cooking time and comment which I belive is plenty of information.
