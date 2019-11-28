@@ -283,6 +283,7 @@ footer {
     }
     .float-left-icon-mobile {
         float: left !important;
+        border-left: 10px !important;
     }
     .footer-mobile {
         font-size: x-small !important;
