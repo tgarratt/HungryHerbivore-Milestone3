@@ -63,6 +63,7 @@
     {% if recipes.count() == 0 %}
     <p>No recipes here!</p>
     {% else %}
+<!--materialize accordion template --> 
     <ul class="collapsible" data-collapsible="accordion">
         {% for recipe in recipes %}
         <li>
@@ -120,7 +121,7 @@
         {% endfor %}
         {% endif %}
     </ul>
-
+<!--materialize accordion template end --> 
 </div>
 <!-- RECIPE CONTENT END -->
 
