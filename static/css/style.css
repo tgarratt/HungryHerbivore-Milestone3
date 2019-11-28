@@ -203,7 +203,7 @@ p {
 }
 
 .recipe-content {
-    margin: 20px;
+    margin: auto;
     background-color: #DADADA;
     border-radius: 25px;
     border: 10px;
