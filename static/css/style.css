@@ -53,6 +53,15 @@ body {
     overflow-wrap: break-word;
 }
 
+.input-field input:focus+label {
+    color: #8E00C3 !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #8E00C3 !important;
+    box-shadow: 0 1px 0 0 #8E00C3 !important
+}
+
 /*--------------------------------------------- NAV BAR */
 
 .targeted-nav {
@@ -226,7 +235,6 @@ footer {
     bottom: 0px;
     height: 30px;
     z-index: 1 !important
-
 }
 
 .footer-text {
