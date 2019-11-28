@@ -53,14 +53,18 @@ body {
     overflow-wrap: break-word;
 }
 
-   .input-field input[type=text]:focus + label {
-     color: #8E00C3 !important;
+.input-field input[type=text]:focus+label {
+    color: #8E00C3 !important;
 }
 
-   .input-field input[type=text]:focus {
-     border-bottom: 1px solid #8E00C3 !important;
-     box-shadow: 0 1px 0 0 #8E00C3 !important;
-   }
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #8E00C3 !important;
+    box-shadow: 0 1px 0 0 #8E00C3 !important;
+}
+
+.material-icons.active {
+    color: #8E00C3 !important;
+}
 
 /*--------------------------------------------- NAV BAR */
 
