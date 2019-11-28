@@ -63,18 +63,7 @@ def update_recipe(recipe_id):
 @app.route('/view_recipe/<recipe_id>')
 def view_recipe(recipe_id):
   the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
-  all_categories = mongo.db.categories.find()
   return render_template('viewrecipe.html', recipe=the_recipe)
-  
-@app.route('/filter', methods=["POST"])
-def filter():
-    difficulty = request.form['difficulty-filter']
-    result_cursor = mongo.db.recipes.find({"difficulty" : difficulty})
-    my_res = ""
-    for doc in result_cursor:
-        my_res += str(doc)
-    return redirect(url_for('get_recipes'))
-     
     
 if __name__ ==  '__main__':
     app.run(host=os.environ.get('IP'),
