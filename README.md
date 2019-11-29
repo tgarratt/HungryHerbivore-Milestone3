@@ -32,7 +32,24 @@ The /wireframes file will show two templates of how I planned the site, little h
 
 - More filters to get a more refined search and even adding more variables to the forms and database such as cusine styles or alergy friendly recipes.
 
+## Technologies used
 
+- HTML5
+    - My templates are forms were all written using html.
+- CSS3
+    - My site was styled using css.
+- JavaScript
+    - My site used javascript to impliment materialise code with jQuery.
+- Flask
+    - This was used to install required librarys for python.
+- Python 
+    - Python was used to connect my site to MongoDB and connect my HTML code.
+- MongoDB 
+    - This was used to host all data for my site on a database.
+- Materialize
+    - Provides documentation templates for html and css.
+- Googleapis
+    - Used to get specific fonts for text on my site.
 
 
 
