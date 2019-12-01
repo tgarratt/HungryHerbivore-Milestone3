@@ -72,6 +72,17 @@ My site is designed to work and have a high UX on all resultions, this was made 
 
 I ran into a small issue with testing and that was the live view of my code. For some reason the AWS cloud 9 live link for my code was not connecting to monogdb. This meant that when I would view my code using AWS half of the content would not load in and would not give an propper view of how my site actually looked. I could simply solve this issue by pushing to heroku for every change of my code however this meant everything took slightly more time and left me with an excessive number of commits. If this problem was to reoccur I would look to solve it at the beggining to increase my functionality and reduce the commits needed for my site.
 
+## Deployment 
+
+Heroku was my deployment platform of choice as I had experiance with it in the course so had an undertstanding of how it worked. Due to my issue with my live code it also efectivly became how I would test my code and would replace the live view entirely also. I used to config vars to connect my mongo database to AWS but I also used it to set up an enviroment variable for my database password to increase security.
+
+## Credit 
+
+### Content
+- The template for the accordian in my recipes.html was aquired from materialize.
+- The template for my form in addrecipe.html and modifyrecipe.html was aquired from materialize.
+- The template for my nav bar was aquired from materialize.
+- The font for my nav bar logo was aquired from google fonts
 
 
 
