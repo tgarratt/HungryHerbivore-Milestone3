@@ -8,7 +8,7 @@ This is where Hungry Herbivore comes in and saves the day with its recipes being
 
 The users were my main focus for this site,I wanted Hungry Herbivore to be very visually apealing  so I picked nice simple colors that go well together, I decided white and a soft purple and I think they fit perfectly. The homepage has accordions, though the recipe is viewed on a separate page to reduce the contend being cramped and look cleaner. Another feature is that it is easy to use, will notice you can get to any desired page within minimal clicks (with the only exception of mobile) but still this saves the site user time on navigating and gives them more time to use the website for its purpse.
 
-### User stories
+### user stories
 
 - As someone who does not eat plant based everyday, it would be conviniant to be able to find simpler meals that allow for my skill range.
 - As an experianced vegan, I would like to be able to focus on more difficuly and complex recipes to bring the excitment back to cooking!
@@ -16,7 +16,7 @@ The users were my main focus for this site,I wanted Hungry Herbivore to be very 
 
 I belive that Hungry Herbivore meets all of these users preferances.
 
-### Display testing
+### display testing
 
 The /wireframes file will show two templates of how I planned the site, little has changed but I changed what was needed. For example the key now being at the top of the page takes less space and is easier to see. As with the accordian information I decided to give each recipe its own page to view. The accordian still displays a comment about the recipe which leaves the homepage telling you the recipe name, difficulty, cooking time and comment which I belive is plenty of information.
 
@@ -31,6 +31,7 @@ The /wireframes file will show two templates of how I planned the site, little h
 ### Future features
 
 - More filters to get a more refined search and even adding more variables to the forms and database such as cusine styles or alergy friendly recipes.
+- A way to filter the form text, I did not want to be restictive when adding a recipe so as long as the input fields are not empty they will submit, in future I'd hope to filter this to make sure the information added makes sense.
 
 ## Technologies used
 
@@ -51,6 +52,7 @@ The /wireframes file will show two templates of how I planned the site, little h
 - Googleapis
     - Used to get specific fonts for text on my site.
 
+
 ## Testing 
 
 My first testing stage was python debug set to true. This proves to me that the code syntaxt was correct and the code ran. If not the application wouldnt run and I would be able to visually see the errors and as is done by the computor is much more reliable then testing by hand. You need to be able to add recipes for this site to have purpouse and with a form that rexuires mostly text it can be hard to validate, to combat this I used a select form to set a difficulty to the recipe as the difficulty has to be within a specific range of values for the site to work properaly and using a select form eliminates the risk of a typo causing an issue.  If you attempt to submit a form with an empty field/s you will be reminded by a subtle popup that the field cannot be empty, this was achived using the 'required' this is a simple HTML command but perfectly and simply fixes my problem. 
@@ -62,7 +64,24 @@ After this I knew the search would find a 'novice' level difficulty as there was
     1. Search for difficulty that has content (returns expected recipe)
     2. Search for difficulty that has no contect (searches but returns a visually unpleasing empty box)
     3. Created if function using jinja to return 'No recipes here' if recipe count == 0
-    4. Search again for difficulty that has no content (returns 'No recipes here' instead of empty box which prodvides informtion to the user instead of no content)
+    4. Search again for difficulty that has no content (returns 'No recipes here' instead of empty box which prodvides informtion to the user instead of no content) 
+     
+My site is designed to work and have a high UX on all resultions, this was made much easier with chromes developer tools allowing me to test the display on specific products but also responsivly so I can see it change from a small size to and medium then large. Materialize's 'col' class was my main use of displaying sizes of elements under diffrent sizes but would also use custom CSS to hide elements on specific sizes also.
+
+
+
+I ran into a small issue with testing and that was the live view of my code. For some reason the AWS cloud 9 live link for my code was not connecting to monogdb. This meant that when I would view my code using AWS half of the content would not load in and would not give an propper view of how my site actually looked. I could simply solve this issue by pushing to heroku for every change of my code however this meant everything took slightly more time and left me with an excessive number of commits. If this problem was to reoccur I would look to solve it at the beggining to increase my functionality and reduce the commits needed for my site.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
