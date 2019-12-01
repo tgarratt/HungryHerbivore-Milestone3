@@ -51,6 +51,18 @@ The /wireframes file will show two templates of how I planned the site, little h
 - Googleapis
     - Used to get specific fonts for text on my site.
 
+## Testing 
+
+My first testing stage was python debug set to true. This proves to me that the code syntaxt was correct and the code ran. If not the application wouldnt run and I would be able to visually see the errors and as is done by the computor is much more reliable then testing by hand. You need to be able to add recipes for this site to have purpouse and with a form that rexuires mostly text it can be hard to validate, to combat this I used a select form to set a difficulty to the recipe as the difficulty has to be within a specific range of values for the site to work properaly and using a select form eliminates the risk of a typo causing an issue.  If you attempt to submit a form with an empty field/s you will be reminded by a subtle popup that the field cannot be empty, this was achived using the 'required' this is a simple HTML command but perfectly and simply fixes my problem. 
+
+One of my user experiances mentions how more challenging recipes would be the reson they use the site so they wouldnt need to sit and scroll through the easy ones. The search function is the solution but required a lot of testing. It originally had a seperate @ route for the search submit but after this was functioning the tests reulted in it being opened in a seperate page instead of an extention of the page its already on, testing allowed me to correct this and delete this @ route and instead add it to the original get_recipes route which allowed the search submit button to become an extention of the homepage and not a new page entirely.
+
+After this I knew the search would find a 'novice' level difficulty as there was one but was unsure if I searched for a recipe difficulty that had no content so I followed simple steps.
+- Search function:
+    1. Search for difficulty that has content (returns expected recipe)
+    2. Search for difficulty that has no contect (searches but returns a visually unpleasing empty box)
+    3. Created if function using jinja to return 'No recipes here' if recipe count == 0
+    4. Search again for difficulty that has no content (returns 'No recipes here' instead of empty box which prodvides informtion to the user instead of no content)
 
 
 
