@@ -74,7 +74,7 @@ I ran into a small issue with testing and that was the live view of my code. For
 
 ## Deployment 
 
-Heroku was my deployment platform of choice as I had experience with it in the course so had an understanding of how it worked. Due to my issue with my live code it also effectively became how I would test my code and would replace the live view entirely also. I used to config vars to connect my mongo database to AWS but I also used it to set up an environment variable for my database password to increase security.
+AWS cloud 9 was where I chose to write my code. Heroku was my deployment platform of choice as I had experience with it in the course so had an understanding of how it worked. Due to my issue with my live code it also effectively became how I would test my code and would replace the live view entirely also. I used to config vars to connect my mongo database to AWS but I also used it to set up an environment variable for my database password to increase security.
 
 ## Credit 
 
